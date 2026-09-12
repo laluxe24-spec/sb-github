@@ -27,3 +27,13 @@ source ~/.zshrc
 
 `~/.zshrc` に直接書き込もうとして `zsh: permission denied: /Users/ryuji/.zshrc` が発生。
 `ls -la ~/.zshrc` で所有者・パーミッションを確認してから対処する。
+
+## 設定できたあと、今後やること
+
+ターミナルを開いて
+
+```
+セカンドブレイン
+```
+
+と打つだけ。

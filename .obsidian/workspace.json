@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "X解析/scripts/node_modules/playwright/lib/agents/playwright-test-heal.prompt.md",
+                "file": "X解析/data/@mai_x0x0_21/README.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "playwright-test-heal.prompt"
+              "title": "README"
             }
           }
         ]
@@ -188,8 +188,14 @@
       "bases:新規ベースを作成": false
     }
   },
-  "active": "9f7eb2df7a3ef936",
+  "active": "c71b3441beafba4c",
   "lastOpenFiles": [
+    "X解析/data/@kw1ew/スクショ/003.jpg",
+    "X解析/data/@kw1ew/スクショ/002.jpg",
+    "X解析/data/@kw1ew/スクショ/001.jpg",
+    "CLAUDE.md",
+    "用語集.md",
+    "X解析/scripts/node_modules/playwright/lib/agents/playwright-test-heal.prompt.md",
     "X解析/scripts/node_modules/playwright/lib/agents/playwright-test-generator.agent.md",
     "X解析/scripts/node_modules/playwright/lib/agents/playwright-test-generate.prompt.md",
     "X解析/scripts/node_modules/playwright/lib/agents/playwright-test-coverage.prompt.md",
@@ -203,12 +209,9 @@
     "X解析/scripts/screenshots_batch5/095_1972315369080852886_1.jpg",
     "X解析/scripts/screenshots_batch5/094_1973764915107451390_1.jpg",
     "X解析/scripts/screenshots_batch5/093_1974127306525302964_1.jpg",
-    "X解析/scripts/screenshots_batch5/092_1975123870165144021_1.jpg",
-    "X解析/scripts/screenshots_batch5/091_1975125019304071602_1.jpg",
     "X解析/scripts/screenshots_batch5",
     "izuna/README.md",
     "X解析/操作メモ.md",
-    "CLAUDE.md",
     "X解析/README.md",
     "Claude Code HOWTO.md",
     "izuna.md",

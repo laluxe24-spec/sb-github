@@ -1,5 +1,5 @@
 .obsidian/plugins/mcp-tools-istefox/
-X解析/scripts/auth.json
-X解析/scripts/node_modules/
-X解析/scripts/package-lock.json
+02_Sources/02_X/scripts/auth.json
+02_Sources/02_X/scripts/node_modules/
+02_Sources/02_X/scripts/package-lock.json
 .DS_Store

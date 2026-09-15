@@ -23,13 +23,22 @@ CHUNK_SIZE = 10  # --file実行時、何本ごとにプロセスを立て直す�
 
 
 def free_memory_mb() -> float:
+    """「本当に空のページ」だけでなく、macOSがすぐ手放せる
+    purgeable(破棄可能)ページも合算する。free単体はmacOSの
+    ディスクキャッシュ機構により常に低く出がちで、Activity Monitorの
+    メモリプレッシャーが緑(正常)でもfreeだけ見ると常に不足扱いに
+    なってしまうため。"""
     out = subprocess.check_output(["vm_stat"]).decode()
     page_size = 16384
+    pages = {}
     for line in out.splitlines():
-        if line.startswith("Pages free:"):
-            free_pages = int(line.split()[-1].rstrip("."))
-            return free_pages * page_size / 1024 / 1024
-    return float("inf")
+        for label in ("Pages free:", "Pages purgeable:"):
+            if line.startswith(label):
+                pages[label] = int(line.split()[-1].rstrip("."))
+    if not pages:
+        return float("inf")
+    total_pages = sum(pages.values())
+    return total_pages * page_size / 1024 / 1024
 
 
 def wait_for_memory(min_mb: float = MIN_FREE_MB, check_interval: int = 10) -> None:

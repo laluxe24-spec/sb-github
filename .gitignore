@@ -3,3 +3,5 @@
 02_Sources/02_X/scripts/node_modules/
 02_Sources/02_X/scripts/package-lock.json
 .DS_Store
+__pycache__/
+*.pyc

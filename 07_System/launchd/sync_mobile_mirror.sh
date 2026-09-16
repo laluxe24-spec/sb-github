@@ -1,14 +1,15 @@
 #!/bin/zsh
-# sb-mac の軽量版(生データ02_Sourcesを除く)を /Users/ryuji/sb-iphone-mirror にコピーし、
-# GitHubのsb-iphoneリポジトリへpushする。iPhoneのObsidian Gitはこちらをクローンする。
+# sb-mac の軽量版(生データ02_Sourcesと会社関連01_Companyを除く)を
+# /Users/ryuji/sb-iphone-mirror にコピーし、GitHubのsb-iphoneリポジトリへpushする。
+# iPhoneのObsidian Gitはこちらをクローンする。
 set -e
 SRC="/Users/ryuji/sb-mac"
 DST="/Users/ryuji/sb-iphone-mirror"
 
 mkdir -p "$DST"
+rm -rf "$DST/01_Company"
 
 rsync -a --delete \
-  "$SRC/01_Company" \
   "$SRC/03_Knowledge" \
   "$SRC/04_MyKnowledge" \
   "$SRC/05_Projects" \

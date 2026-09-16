@@ -1,0 +1,884 @@
+{
+  "「何でもいいよ」「どこでもいいよ」は優しさではなく決断放棄に見える": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2088914408776798291",
+      "@bagurase_tyan/2087464961044013425",
+      "@bagurase_tyan/2083479759506547086",
+      "@bagurase_tyan/2079855577354870918",
+      "@Sta_Loveshinri/2093514677724828040",
+      "@Sta_Loveshinri/2093514680019157468",
+      "@Todai_Renai/2029120010321314054",
+      "@romantic_thai/2098527174605320247",
+      "@bagurase_tyan/2063184882910859741"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai",
+      "bagurase_tyan",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "優しさだけでは恋愛対象にならない",
+      "清潔感の再定義"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "好意は隠しすぎず、しかし出しすぎない。中間が一番強い": {
+    "type": "action",
+    "sources": [
+      "@mai_x0x0_21/2098267390534639869",
+      "@bagurase_tyan/2079492949411541445",
+      "@bagurase_tyan/2091813611773829339",
+      "@Todai_Renai/2097979037335634001",
+      "@Todai_Renai/2076934749885747428",
+      "@rei0723_X/2095746685112553536"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "bagurase_tyan",
+      "mai_x0x0_21",
+      "rei0723_X"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "追いすぎと追われるの力学"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "優しさだけでは恋愛対象にならない": {
+    "type": "action",
+    "sources": [
+      "@Sta_Loveshinri/2084122580550922715",
+      "@mirei_urateku/2094621275977339029",
+      "@mirei_urateku/2098607535158919495",
+      "@Todai_Renai/2015748009620095175",
+      "@bagurase_tyan/2079855851280712081"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai",
+      "bagurase_tyan",
+      "mirei_urateku"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "非モテ脱却_自分の意見軸を持つ"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "返信速度そのものより、温度差・一貫性が見られている": {
+    "type": "action",
+    "sources": [
+      "@mai_x0x0_21/2098340521857221110",
+      "@rei0723_X/2098227509678743909",
+      "@rei0723_X/2062837973981515895"
+    ],
+    "matched_accounts": [
+      "mai_x0x0_21",
+      "rei0723_X"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "脈あり脈なしの誤読"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "感情への反応が、事実への反応より圧倒的に効く": {
+    "type": "action",
+    "sources": [
+      "@mai_x0x0_21/2097623062527283351",
+      "@mai_x0x0_21/2097623064796074009",
+      "@rei0723_X/2082686300965187844",
+      "@rei0723_X/2079091228420050946",
+      "@Sta_Loveshinri/2072115998229168407",
+      "@Sta_Loveshinri/2072115994571727123",
+      "@bagurase_tyan/2082753548358705562"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "bagurase_tyan",
+      "mai_x0x0_21",
+      "rei0723_X"
+    ],
+    "confidence": "A",
+    "status": "verified",
+    "related": [
+      "男女の認知差"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "小さな気配りの積み重ねが、高額な一発イベントより効く": {
+    "type": "action",
+    "sources": [
+      "@mai_x0x0_21/2098256575739932962",
+      "@rei0723_X/2095085243334361354",
+      "@rei0723_X/2096081493881995305"
+    ],
+    "matched_accounts": [
+      "mai_x0x0_21",
+      "rei0723_X"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "希少性は好意を強めやすいが、意図的な駆け引きとしてやると逆効果": {
+    "type": "action",
+    "sources": [
+      "@Todai_Renai/2069347769496781002",
+      "@Todai_Renai/2069347825885004252",
+      "@Todai_Renai/2043281081164812432",
+      "@bagurase_tyan/2049051493559644658"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "bagurase_tyan"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "追いすぎと追われるの力学"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "誰にでも同じ態度は「特別感」を消す": {
+    "type": "action",
+    "sources": [
+      "@Sta_Loveshinri/2082032536071602397",
+      "@Sta_Loveshinri/2081869006928285946",
+      "@bagurase_tyan/2078405439923143074",
+      "@romantic_thai/2098527186236080510"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "bagurase_tyan",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "関係の進展は、会う回数や年数ではなく、変化と深まりで決まる": {
+    "type": "action",
+    "sources": [
+      "@Sta_Loveshinri/2084069167498735874",
+      "@Sta_Loveshinri/2085959558758072771",
+      "@mirei_urateku/2093171718865166390",
+      "@bagurase_tyan/2085290425703915857"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "bagurase_tyan",
+      "mirei_urateku"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "清潔感の再定義": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2093626234773401634",
+      "@bagurase_tyan/2080579378917113968",
+      "@Sta_Loveshinri/2099624415487246457",
+      "@rei0723_X/2060251392607142318",
+      "@rei0723_X/2086389187658572010"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "bagurase_tyan",
+      "rei0723_X"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "自信のなさ・自己卑下が経験の少なさそのものより強いマイナス要因": {
+    "type": "action",
+    "sources": [
+      "@Todai_Renai/2069664739651907744",
+      "@Todai_Renai/2069664904102166567",
+      "@Todai_Renai/2045078723062608011",
+      "@Todai_Renai/2014219634879402058",
+      "@Sta_Loveshinri/2071490157849760072"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "非モテ脱却_自己卑下を減らす"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "自分の世界(仕事・趣味・予定)を持っていることが依存されない余裕につながる": {
+    "type": "action",
+    "sources": [
+      "@Todai_Renai/2069722102501085343",
+      "@Todai_Renai/2069721956417699980",
+      "@Todai_Renai/2043281135296544836",
+      "@romantic_thai/2092899932491723096"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "追いすぎと追われるの力学"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "誘う時は二択で選択肢を絞る": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2052223453630238983",
+      "@bagurase_tyan/2071882721740431428"
+    ],
+    "matched_accounts": [
+      "bagurase_tyan"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [
+      "「何でもいいよ」は決断放棄に見える"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "店選びは間接照明・横並びで落ち着ける場所が良い": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2087102257779421512",
+      "@bagurase_tyan/2048599566958940237",
+      "@Sta_Loveshinri/2079698728232034390",
+      "@Sta_Loveshinri/2071850524232814850"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "bagurase_tyan"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "デートの去り際は感想より具体的な記憶を残す": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2074057410621395135",
+      "@bagurase_tyan/2074057122640527693",
+      "@romantic_thai/2096886192310734938"
+    ],
+    "matched_accounts": [
+      "bagurase_tyan",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "誘う時の断られる前提の前置きは逆効果": {
+    "type": "action",
+    "sources": [
+      "@romantic_thai/2090272828272574514",
+      "@Todai_Renai/2012819660060910014",
+      "@Todai_Renai/2028773150176219139"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "「何でもいいよ」は決断放棄に見える"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "断られた時は理由を問い詰めず軽く流す": {
+    "type": "action",
+    "sources": [
+      "@romantic_thai/2096523825748103230",
+      "@Todai_Renai/2018528417868824748",
+      "@mai_x0x0_21/2094639237731885058"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "mai_x0x0_21",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "恋愛経験の少なさは正直に伝えても大きなマイナスにならない": {
+    "type": "action",
+    "sources": [
+      "@mirei_urateku/2096187487190495313",
+      "@mirei_urateku/2095708445403939267",
+      "@Todai_Renai/2045078723062608011"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "mirei_urateku"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "追いすぎと追われるの力学（尽くすほど軽く扱われやすくなる逆説）": {
+    "type": "action",
+    "sources": [
+      "@Sta_Loveshinri/2081525661123178945",
+      "@Sta_Loveshinri/2080877797896294660",
+      "@Todai_Renai/2069347769496781002",
+      "@romantic_thai/2095263011439247743"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "好意は隠しすぎず出しすぎない",
+      "希少性は好意を強めやすい"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "「安心」と「脈あり」は別物": {
+    "type": "action",
+    "sources": [
+      "@mai_x0x0_21/2096452342392746340",
+      "@mai_x0x0_21/2096452330422214738",
+      "@Todai_Renai/2030936482299748710",
+      "@Sta_Loveshinri/2084122580550922715"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai",
+      "mai_x0x0_21"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "優しさだけでは恋愛対象にならない"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "脈あり脈なしの誤読（返信の速さ・目線・質問への動揺）": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2088551730657329438",
+      "@rei0723_X/2090372785466130519",
+      "@Todai_Renai/2099634522786517423",
+      "@Sta_Loveshinri/2074013283489604085"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai",
+      "bagurase_tyan",
+      "rei0723_X"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "距離を取る/フェードアウトする時の心理": {
+    "type": "action",
+    "sources": [
+      "@mai_x0x0_21/2096018661182206074",
+      "@Sta_Loveshinri/2081525656647856171",
+      "@Sta_Loveshinri/2092778462306328930"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "mai_x0x0_21"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "男女の認知差（問題解決志向と共感志向）": {
+    "type": "action",
+    "sources": [
+      "@rei0723_X/2082686300965187844",
+      "@rei0723_X/2079091228420050946",
+      "@rei0723_X/2048638270087786920"
+    ],
+    "matched_accounts": [
+      "rei0723_X"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [
+      "感情への反応が事実への反応より効く"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "非モテ脱却_自己卑下を減らす": {
+    "type": "action",
+    "sources": [
+      "@Todai_Renai/2069664739651907744",
+      "@Todai_Renai/2045078723062608011"
+    ],
+    "matched_accounts": [
+      "Todai_Renai"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [
+      "自信のなさ・自己卑下が経験の少なさより強いマイナス要因"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "非モテ脱却_自分の意見軸を持つ": {
+    "type": "action",
+    "sources": [
+      "@Sta_Loveshinri/2084122577799409958",
+      "@rei0723_X/2093261806521471400"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "rei0723_X"
+    ],
+    "confidence": "C",
+    "status": "verified",
+    "related": [
+      "優しさだけでは恋愛対象にならない"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "愛着スタイルの慎重な扱い": {
+    "type": "action",
+    "sources": [
+      "@romantic_thai/2091812820208005125",
+      "@romantic_thai/2091812794924691802"
+    ],
+    "matched_accounts": [
+      "romantic_thai"
+    ],
+    "confidence": "A",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "外見・体型のイジりはNG、内面や努力を褒める方が刺さる": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2089639499739607481",
+      "@Todai_Renai/2071528099754459302",
+      "@Todai_Renai/2098909968787198189",
+      "@Sta_Loveshinri/2084549977791955079"
+    ],
+    "matched_accounts": [
+      "Sta_Loveshinri",
+      "Todai_Renai",
+      "bagurase_tyan"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "追いLINE・不安からの連投は逆効果（反芻思考との関連）": {
+    "type": "action",
+    "sources": [
+      "@rei0723_X/2093993041334022311",
+      "@bagurase_tyan/2049051802977681692"
+    ],
+    "matched_accounts": [
+      "bagurase_tyan",
+      "rei0723_X"
+    ],
+    "confidence": "A",
+    "status": "verified",
+    "related": [
+      "追いすぎと追われるの力学"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "自分以外(店員など)への態度で人柄を判断される": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2047511399535165791",
+      "@rei0723_X/2044267278922022922"
+    ],
+    "matched_accounts": [
+      "bagurase_tyan",
+      "rei0723_X"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "性的な誘い方・体位・前戯などの具体的テクニック集": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "bagurase_tyan",
+      "rei0723_X",
+      "Todai_Renai"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "煽情的なテンプレート投稿が大半で、内容も断定的すぎる・個人差が大きい。知識ベースの対象読者層とも合わないため保留。",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "「女性を洗脳する」「意図した方向に誘導する」系の心理操作フレームワーク": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "Todai_Renai"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "操作的・支配的な文脈で語られる商材宣伝テンプレートであり、再現性・妥当性ともに検証不能。除外。",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "MBTI別の性格分類（惚れやすさ・浮気しやすさ等のランキング）": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "rei0723_X"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "MBTIによる性格予測は心理学的な裏付けが薄く、単独アカウントのテンプレート形式の投稿のみ。保留。",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "血液型による相性診断": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "Sta_Loveshinri"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "血液型性格診断は科学的根拠がなく単独アカウントの投稿のみ。保留。",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "ブランド名・チェーン店名を指定した「モテる選び方」ランキング（服・香水・スイーツ・待ち合わせ場所等）": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "Sta_Loveshinri"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "単独アカウントかつ具体的すぎる（流行・地域・個人差に依存する固有ブランド名指定）ため条件が特殊すぎる。根底にある「相手に気を遣わせない選び方」という原則のみ抽出済み。",
+    "related": [
+      "清潔感の再定義"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "職業別（看護師・美容師など）の攻略リスト": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "Todai_Renai"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "職業でステレオタイプに分類し攻略法を当てはめる内容で、根拠不明かつ単独アカウント。除外。",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "性的体験の実況報告（マッチングアプリ体験談形式の性的内容）": {
+    "type": "action",
+    "sources": [],
+    "matched_accounts": [
+      "bagurase_tyan",
+      "rei0723_X"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "一次体験の実況・報告形式で再現性の検証ができず、内容も性的。除外ルールに該当。",
+    "related": [],
+    "last_updated": "2026-09-16"
+  },
+  "誇張した「〜すぎて〜になった」オープナー": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/002.jpg",
+      "kw1ew/003.jpg",
+      "kw1ew/004.jpg",
+      "kw1ew/005.jpg",
+      "kw1ew/006.jpg",
+      "kw1ew/007.jpg",
+      "kw1ew/037.jpg",
+      "kw1ew/038.jpg",
+      "kw1ew/039.jpg",
+      "kw1ew/070.jpg",
+      "kw1ew/071.jpg",
+      "kw1ew/072.jpg",
+      "kw1ew/083.jpg",
+      "kw1ew/084.jpg",
+      "kw1ew/085.jpg",
+      "kw1ew/086.jpg",
+      "kw1ew/096.jpg",
+      "kw1ew/097.jpg",
+      "kw1ew/095.jpg",
+      "kw1ew/098.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "誇張オープナー後の自虐オチ",
+      "数字・疑似ロジックを誇張して畳みかける"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "相手の一言を即興で物語に仕立てて膨らませる": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/019.jpg",
+      "kw1ew/020.jpg",
+      "kw1ew/021.jpg",
+      "kw1ew/022.jpg",
+      "kw1ew/023.jpg",
+      "kw1ew/024.jpg",
+      "kw1ew/045.jpg",
+      "kw1ew/046.jpg",
+      "kw1ew/047.jpg",
+      "kw1ew/048.jpg",
+      "kw1ew/061.jpg",
+      "kw1ew/062.jpg",
+      "kw1ew/063.jpg",
+      "kw1ew/091.jpg",
+      "kw1ew/092.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "一緒にボケを育てる共同即興",
+      "誇張した「〜すぎて〜になった」オープナー"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "名前を聞く時の呼び方脅し": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/002.jpg",
+      "kw1ew/013.jpg",
+      "kw1ew/014.jpg",
+      "kw1ew/015.jpg",
+      "kw1ew/016.jpg",
+      "kw1ew/054.jpg",
+      "kw1ew/055.jpg",
+      "kw1ew/056.jpg",
+      "kw1ew/057.jpg",
+      "kw1ew/067.jpg",
+      "kw1ew/068.jpg",
+      "kw1ew/077.jpg",
+      "kw1ew/078.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "あだ名・敬称ロールプレイを最後まで貫く",
+      "LINE交換の定型クロージング"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "あだ名・敬称ロールプレイを最後まで貫く": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/028.jpg",
+      "kw1ew/029.jpg",
+      "kw1ew/030.jpg",
+      "kw1ew/031.jpg",
+      "kw1ew/032.jpg",
+      "kw1ew/033.jpg",
+      "kw1ew/043.jpg",
+      "kw1ew/044.jpg",
+      "kw1ew/046.jpg",
+      "kw1ew/047.jpg",
+      "kw1ew/048.jpg",
+      "kw1ew/016.jpg",
+      "kw1ew/017.jpg",
+      "kw1ew/018.jpg"
+    ],
+    "confidence": "medium",
+    "status": "verified",
+    "related": [
+      "名前を聞く時の呼び方脅し"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "指摘されたら守らず具体化して倍返しする": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/028.jpg",
+      "kw1ew/029.jpg",
+      "kw1ew/030.jpg",
+      "kw1ew/041.jpg",
+      "kw1ew/042.jpg",
+      "kw1ew/069.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "自分を下げるオチで褒め言葉を安全に受け取る",
+      "本当の不満・疑念には正面から向き合う"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "数字・疑似ロジックを誇張して畳みかける": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/054.jpg",
+      "kw1ew/055.jpg",
+      "kw1ew/056.jpg",
+      "kw1ew/057.jpg",
+      "kw1ew/034.jpg"
+    ],
+    "confidence": "medium",
+    "status": "verified",
+    "related": [
+      "誇張した「〜すぎて〜になった」オープナー"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "きわどい発言は誤字・TPO理解でクッションしてから気の利いた一言に着地": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/005.jpg",
+      "kw1ew/006.jpg",
+      "kw1ew/007.jpg"
+    ],
+    "confidence": "medium",
+    "status": "verified",
+    "related": [
+      "指摘されたら守らず具体化して倍返しする"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "相手が出した情報をコラボで広げる": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/034.jpg",
+      "kw1ew/035.jpg",
+      "kw1ew/036.jpg",
+      "kw1ew/064.jpg",
+      "kw1ew/065.jpg",
+      "kw1ew/066.jpg",
+      "kw1ew/091.jpg",
+      "kw1ew/092.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "相手の一言を即興で物語に仕立てて膨らませる",
+      "あだ名・敬称ロールプレイを最後まで貫く"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "自分を下げるオチで褒め言葉を安全に受け取る": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/010.jpg",
+      "kw1ew/041.jpg",
+      "kw1ew/042.jpg"
+    ],
+    "confidence": "medium",
+    "status": "verified",
+    "related": [
+      "指摘されたら守らず具体化して倍返しする"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "労い・気遣いで素の優しさに一瞬で切り替える": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/002.jpg",
+      "kw1ew/003.jpg",
+      "kw1ew/004.jpg",
+      "kw1ew/054.jpg",
+      "kw1ew/055.jpg",
+      "kw1ew/056.jpg",
+      "kw1ew/057.jpg",
+      "kw1ew/019.jpg",
+      "kw1ew/020.jpg",
+      "kw1ew/021.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "本気の質問には茶化さず直球で返す"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "本気の質問には茶化さず直球で返す": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/051.jpg",
+      "kw1ew/052.jpg",
+      "kw1ew/080.jpg",
+      "kw1ew/081.jpg",
+      "kw1ew/082.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "労い・気遣いで素の優しさに一瞬で切り替える",
+      "本当の不満・疑念には正面から向き合う"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "LINE交換の定型クロージング": {
+    "type": "conversation",
+    "sources": [
+      "kw1ew/002.jpg",
+      "kw1ew/003.jpg",
+      "kw1ew/004.jpg",
+      "kw1ew/019.jpg",
+      "kw1ew/020.jpg",
+      "kw1ew/021.jpg",
+      "kw1ew/043.jpg",
+      "kw1ew/044.jpg",
+      "kw1ew/045.jpg",
+      "kw1ew/058.jpg",
+      "kw1ew/059.jpg",
+      "kw1ew/060.jpg",
+      "kw1ew/067.jpg",
+      "kw1ew/068.jpg",
+      "kw1ew/069.jpg",
+      "kw1ew/087.jpg",
+      "kw1ew/088.jpg",
+      "kw1ew/089.jpg",
+      "kw1ew/090.jpg",
+      "kw1ew/098.jpg"
+    ],
+    "confidence": "high",
+    "status": "verified",
+    "related": [
+      "名前を聞く時の呼び方脅し"
+    ],
+    "last_updated": "2026-09-16"
+  }
+}

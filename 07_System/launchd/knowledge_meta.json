@@ -880,5 +880,278 @@
       "名前を聞く時の呼び方脅し"
     ],
     "last_updated": "2026-09-16"
+  },
+  "課題の分離": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/嫌われる勇気"
+    ],
+    "status": "verified",
+    "related": [
+      "承認欲求を手放して自由に生きる",
+      "下向き矢印法で『本当の思い込み(スキーマ)』を見つける"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "承認欲求を手放して自由に生きる": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/嫌われる勇気"
+    ],
+    "status": "verified",
+    "related": [
+      "課題の分離",
+      "ファーストラブ理論"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "原因ではなく目的から考える(目的論)": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/嫌われる勇気"
+    ],
+    "status": "verified",
+    "related": [
+      "課題の分離",
+      "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "自己受容(60点の自分を受け入れる)": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/嫌われる勇気"
+    ],
+    "status": "verified",
+    "related": [
+      "ファーストラブ理論",
+      "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "『いま、ここ』に集中し、行為そのものに価値を置く": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/嫌われる勇気"
+    ],
+    "status": "verified",
+    "related": [
+      "自己受容(60点の自分を受け入れる)"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/こころが晴れるノート"
+    ],
+    "status": "verified",
+    "related": [
+      "下向き矢印法で『本当の思い込み(スキーマ)』を見つける",
+      "問題を具体的にし、一つずつ解決する"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "下向き矢印法で『本当の思い込み(スキーマ)』を見つける": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/こころが晴れるノート"
+    ],
+    "status": "verified",
+    "related": [
+      "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)",
+      "承認欲求を手放して自由に生きる"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "アサーティブに伝える": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/こころが晴れるノート"
+    ],
+    "status": "verified",
+    "related": [
+      "Sタイプ的コミュニケーション(気持ちを伝える/けんかを乗り切る)"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "問題を具体的にし、一つずつ解決する": {
+    "type": "applied_knowledge",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "sources": [
+      "kindle/こころが晴れるノート"
+    ],
+    "status": "verified",
+    "related": [
+      "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "アタッチメント・タイプを見分ける(黄金のルール)": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/異性の心を上手に透視する方法"
+    ],
+    "status": "verified",
+    "related": [
+      "NタイプとVタイプの悪循環(ジェットコースター効果)に気づく",
+      "離別ストラテジーに気づく",
+      "男性脳・女性脳を見分ける5つの視点"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "NタイプとVタイプの悪循環(ジェットコースター効果)に気づく": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/異性の心を上手に透視する方法"
+    ],
+    "status": "verified",
+    "related": [
+      "アタッチメント・タイプを見分ける(黄金のルール)",
+      "離別ストラテジーに気づく"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "離別ストラテジーに気づく": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/異性の心を上手に透視する方法"
+    ],
+    "status": "verified",
+    "related": [
+      "アタッチメント・タイプを見分ける(黄金のルール)",
+      "サプライズ理論"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "Sタイプ的コミュニケーション(気持ちを伝える/けんかを乗り切る)": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/異性の心を上手に透視する方法"
+    ],
+    "status": "verified",
+    "related": [
+      "アサーティブに伝える"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "執着の分散理論": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/LOVE理論"
+    ],
+    "status": "verified",
+    "related": [
+      "ファーストラブ理論"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "うわっつらKINDNESS理論": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/LOVE理論"
+    ],
+    "status": "verified",
+    "related": [
+      "離別ストラテジーに気づく"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "ファーストラブ理論": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/LOVE理論"
+    ],
+    "status": "verified",
+    "related": [
+      "承認欲求を手放して自由に生きる",
+      "自己受容(60点の自分を受け入れる)",
+      "執着の分散理論"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "サプライズ理論": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/LOVE理論"
+    ],
+    "status": "verified",
+    "related": [
+      "離別ストラテジーに気づく"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "エジソン理論": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/LOVE理論"
+    ],
+    "status": "verified",
+    "related": [
+      "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "男性脳・女性脳を見分ける5つの視点": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/男女脳戦略"
+    ],
+    "status": "verified",
+    "related": [
+      "アタッチメント・タイプを見分ける(黄金のルール)",
+      "脳タイプに合わせて伝え方を変える"
+    ],
+    "last_updated": "2026-09-16"
+  },
+  "脳タイプに合わせて伝え方を変える": {
+    "type": "applied_knowledge",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "sources": [
+      "kindle/男女脳戦略"
+    ],
+    "status": "verified",
+    "related": [
+      "男性脳・女性脳を見分ける5つの視点"
+    ],
+    "last_updated": "2026-09-16"
   }
 }

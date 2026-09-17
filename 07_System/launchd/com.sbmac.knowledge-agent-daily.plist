@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
     <key>Label</key>
-    <string>com.sbmac.knowledge-conversation-daily</string>
+    <string>com.sbmac.knowledge-agent-daily</string>
     <key>ProgramArguments</key>
     <array>
-        <string>/Users/ryuji/sb-mac/07_System/launchd/run_knowledge_conversation_daily.sh</string>
+        <string>/Users/ryuji/sb-mac/07_System/launchd/run_knowledge_agent_daily.sh</string>
     </array>
     <key>StartCalendarInterval</key>
     <dict>
         <key>Hour</key>
         <integer>5</integer>
         <key>Minute</key>
-        <integer>55</integer>
+        <integer>40</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/knowledge-conversation-launchd.log</string>
+    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/knowledge-agent-launchd.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/knowledge-conversation-launchd-error.log</string>
+    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/knowledge-agent-launchd-error.log</string>
 </dict>
 </plist>

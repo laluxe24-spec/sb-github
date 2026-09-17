@@ -1157,7 +1157,7 @@
   "テレアポで切られてもすぐ電話を切らない": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1170,7 +1170,7 @@
   "時間の許可を求めずドア・イン・ザ・フェイス的に粘る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1183,7 +1183,7 @@
   "サービス内容ではなくBefore/Afterを話す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1196,7 +1196,7 @@
   "切り返しの目的は論破ではなく背中を押すこと": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7443360052288785682.md", "transcripts/7671844559889943829.md", "transcripts/7196977938066132226.md", "transcripts/7332356061304786177.md", "transcripts/7337179624339787009.md", "transcripts/7324139502396574978.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1207,7 +1207,7 @@
   "マイナスでなくプラスを聞く": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7287539608550706433.md", "transcripts/7296410419671928065.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1218,7 +1218,7 @@
   "共感はせよ、ただ納得はするな": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7614283680265112848.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1229,7 +1229,7 @@
   "感謝の言葉は自信と余裕を示すために使う": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7403343348913753360.md", "transcripts/7624672072563739920.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1240,7 +1240,7 @@
   "「〜だと思います」を使わず言い切る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7503376831861640466.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1251,7 +1251,7 @@
   "逆接のイエスバットではなく順接のイエスそうを使う": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7503376831861640466.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1262,7 +1262,7 @@
   "「高いですね」への切り返し(価値の上乗せ)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7320424722565532929.md", "transcripts/7440447459010153746.md", "transcripts/7608860194432470279.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1273,7 +1273,7 @@
   "「考えます」は断り文句ではなく欲しい証拠": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7450404499279088903.md", "transcripts/7597765148681489680.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1284,7 +1284,7 @@
   "現状維持バイアス(めんどくさい)への対策": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7391758752023710984.md", "transcripts/7611872750705184001.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1295,7 +1295,7 @@
   "「相談したい」の見極めと切り返し": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7342705502800956680.md", "transcripts/7503377264692759816.md", "transcripts/7650425149639937300.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1306,7 +1306,7 @@
   "「今日は決めません」という前置きへの対応": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7314565840412609793.md", "transcripts/7396932505451973906.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1317,7 +1317,7 @@
   "既存の他社利用者への切り返し": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7355785000953924872.md", "transcripts/7473785932366368007.md", "transcripts/7557639018641460501.md", "transcripts/7567185102657047829.md", "transcripts/7334896543188684033.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1328,7 +1328,7 @@
   "ドア・イン・ザ・フェイス": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7306392855843507458.md", "transcripts/7314128361473854721.md", "transcripts/7366958844351630599.md", "transcripts/7399833547021880577.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1339,7 +1339,7 @@
   "フット・イン・ザ・ドア": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7499807280263712018.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1350,7 +1350,7 @@
   "二者択一・ダブルバインド": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7499807280263712018.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1361,7 +1361,7 @@
   "ラベリング効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7311122904442244354.md", "transcripts/7627056286793747733.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1372,7 +1372,7 @@
   "ウィンザー効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7366077645882199314.md", "transcripts/7382204994923138312.md", "transcripts/7663760567949085973.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1383,7 +1383,7 @@
   "バンドワゴン効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7382204994923138312.md", "transcripts/7403540893854174480.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1394,7 +1394,7 @@
   "カクテルパーティー効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7274800633469848833.md", "transcripts/7342704475364134162.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1405,7 +1405,7 @@
   "一貫性の原理の使い方": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7403540893854174480.md", "transcripts/7480847865363827984.md", "transcripts/7314151287715532034.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1416,7 +1416,7 @@
   "フレーミング効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7376083056009940231.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1427,7 +1427,7 @@
   "メラビアンの法則の正しい理解": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7407695739754761490.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1438,7 +1438,7 @@
   "ザイアンスの熟知の法則で本音を引き出す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7544022118493719816.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1449,7 +1449,7 @@
   "権威の心理学": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7373589118204382482.md", "transcripts/7447799940715171090.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1460,7 +1460,7 @@
   "人の本音は3回目に出る(3度押し)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7287537946817809665.md", "transcripts/7347530871357984007.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1471,7 +1471,7 @@
   "突然はごめんね、でも自信あるからの構え": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7311125578931834113.md", "transcripts/7408003328199707922.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1482,7 +1482,7 @@
   "特別感・当たり前さ・ハテナで注意を引く": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7285654476390665474.md", "transcripts/7320426091385048321.md", "transcripts/7399833547021880577.md", "transcripts/7501308844857953543.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1493,7 +1493,7 @@
   "テレアポの声のトーンと表情": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7399833547021880577.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1504,7 +1504,7 @@
   "資料だけ送ってと言われたらヒアリングしてからアポにつなげる": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7399833547021880577.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1515,7 +1515,7 @@
   "一流のプレゼントークの3段階": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7340093802100591890.md", "transcripts/7437779506666032391.md", "transcripts/7360884570050333970.md", "transcripts/7676782619941440789.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1526,7 +1526,7 @@
   "具体的な一コマを想像させる": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7360884570050333970.md", "transcripts/7382202564512697608.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1537,7 +1537,7 @@
   "地獄と天国のギャップ": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7337179624339787009.md", "transcripts/7345394911136517394.md", "transcripts/7648408665245879573.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1548,7 +1548,7 @@
   "問題提起から解決の順で話す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7635235460570254613.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1559,7 +1559,7 @@
   "比較を作る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7353183652186033415.md", "transcripts/7366077645882199314.md", "transcripts/7635235460570254613.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1570,7 +1570,7 @@
   "ベネフィット(利点)を語る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7353183652186033415.md", "transcripts/7402128228015492353.md", "transcripts/7640276072612859156.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1581,7 +1581,7 @@
   "AREA話法": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7378686187508075794.md", "transcripts/7586196467514133781.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1592,7 +1592,7 @@
   "理由は3つまで(ピラミッドストラクチャー)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7298969655127985410.md", "transcripts/7340092594745134344.md", "transcripts/7637807018664906005.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1603,7 +1603,7 @@
   "「3連発」で畳みかける": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7635235460570254613.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1614,7 +1614,7 @@
   "視覚に訴える資料を作る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7678985639148244244.md", "transcripts/7663760567949085973.md"],
     "matched_accounts": [],
     "confidence": "A",
@@ -1625,7 +1625,7 @@
   "話に集中させ続ける工夫": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7525624372724288786.md", "transcripts/7678985639148244244.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1636,7 +1636,7 @@
   "蛇の尻尾のクロージング": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7353185081294441735.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1647,7 +1647,7 @@
   "どこが良かったか、なぜ良かったかを聞く": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7314151287715532034.md", "transcripts/7340092594745134344.md", "transcripts/7480847865363827984.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1658,7 +1658,7 @@
   "プラスのシャワー": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7386860307441831175.md", "transcripts/7528691559009635592.md", "transcripts/7645631456106040597.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1669,7 +1669,7 @@
   "マジックワード": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7403343348913753360.md", "transcripts/7433993363277303048.md", "transcripts/7624672072563739920.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1680,7 +1680,7 @@
   "沈黙を怖がらない(クロージングシグナル理論)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7359196357925588232.md", "transcripts/7473785424159214856.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1691,7 +1691,7 @@
   "クローザーの心構え": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7535769248124259591.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1702,7 +1702,7 @@
   "第三者話法+実績+親近性": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7301536334089293057.md", "transcripts/7326727017838169345.md", "transcripts/7447799940715171090.md", "transcripts/7669211966501670164.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1713,7 +1713,7 @@
   "雑談の目的は自慢話をさせること": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7575716254728654101.md", "transcripts/7501308844857953543.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1724,7 +1724,7 @@
   "褒め方は内面・センス・過去を褒める": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7661213666796195093.md", "transcripts/7285654476390665474.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1735,7 +1735,7 @@
   "嫌われる無自覚な癖に注意する": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7332357064645168386.md", "transcripts/7391764950038940936.md", "transcripts/7587606770613259540.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1746,7 +1746,7 @@
   "NGワードを避ける": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7378684511816568082.md", "transcripts/7503376831861640466.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1757,7 +1757,7 @@
   "信頼を失う3つのNG(顧客目線)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7427295055414824199.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1768,7 +1768,7 @@
   "新人は1年目アピールをしない": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7317472029266005249.md", "transcripts/7387977886826794247.md", "transcripts/7414089404861484306.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1779,7 +1779,7 @@
   "商談で緊張しない方法": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7488981440764431634.md"],
     "matched_accounts": [],
     "confidence": "B",
@@ -1790,7 +1790,7 @@
   "主導権の握り方": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7308926762409348353.md", "transcripts/7501307917199609106.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1801,7 +1801,7 @@
   "平均の法則(スランプ対策)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7370885947216514312.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1812,7 +1812,7 @@
   "感覚に頼らず言語化する": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7461239447636430087.md", "transcripts/7658231415087123733.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1823,7 +1823,7 @@
   "売れない言い訳を手放す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7621747639519841557.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1834,7 +1834,7 @@
   "アポがない日こそ勝負の日、保留を作らない": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7586201401609538837.md"],
     "matched_accounts": [],
     "confidence": "C",
@@ -1845,7 +1845,7 @@
   "健康を最優先にする": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7586201401609538837.md"],
     "matched_accounts": [],
     "confidence": "D",
@@ -1856,7 +1856,7 @@
   "ロープレでは羞恥心を捨てる": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/TikTok_行動テクニック.md",
+    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
     "sources": ["transcripts/7629652349631335701.md"],
     "matched_accounts": [],
     "confidence": "C",

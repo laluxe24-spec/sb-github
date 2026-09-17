@@ -21,7 +21,7 @@ sb-macで動くAI全体の基本構造。
 - **Knowledge**: 情報を分析し、あとから使えるKnowledgeに変換する
 - **Knowledgeの統合**: 複数のKnowledgeを組み合わせ、共通原理や新しい考え方を見つける
 - **SNS分析**: 投稿・アカウントの反応理由や構成パターンを分析する
-- **Research**: Webや商品を調査・比較する
+- **Research**: Webや商品を調査・比較する。既存Knowledgeに学術論文の裏付けがあるか調べ、根拠レベルを強化することもできる
 - **Interior**: 実在する家具・商品で部屋づくりを組み立てる
 - **Content**: Knowledge/My KnowledgeをSNS・note向けのオリジナルコンテンツに変換する
 

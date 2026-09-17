@@ -60,17 +60,38 @@ iPhone側は、最新を見たい時にObsidianのコマンドパレットから
 - **分析・知識化レイヤー**: 情報源が増えても、ナレッジ統括AI自身の対象フォルダが増えるだけで、AIの数は増やさない(「XだからX用AI」を作らない、が大原則)
 - **QA**: 当面1つのまま。1日の変更量が多すぎて見きれなくなったら分割を検討
 
+## Research/Content/Interiorサブエージェント(2026-09-17: 土台作成済み、常設ではない)
+
+Content・Interior・Researchは**常設AIではない**。秘書AI(このセッション)が、りゅーじ君との会話の中で必要になった時だけ、その都度`Agent`ツールで立ち上げる。処理が終わったら結果だけ受け取って終了する(TikTok/X収集のような固定スケジュールは持たない)。
+
+| サブエージェント | プロンプトファイル | 呼ばれる場面 |
+|---|---|---|
+| Research | `07_System/launchd/agent_research_prompt.md` | 一般Web調査、または実在家具の商品検索(Interiorから間接的に呼ばれることが多い) |
+| Interior | `07_System/launchd/agent_interior_prompt.md` | 「部屋づくりして」と頼まれた時。条件整理→Researchへ商品検索依頼→選定→レイアウト→保存まで担当 |
+| Content | `07_System/launchd/agent_content_prompt.md` | 「発信用コンテンツ作って」と頼まれた時。Knowledge/My Knowledgeを媒体別のオリジナルコンテンツに変換 |
+
+**呼び出しの流れ(例: 部屋づくり)**
+```
+りゅーじ君「一人暮らしの部屋作って、予算10万、モダン系」
+→ 秘書AIがInteriorサブエージェントを起動、条件を渡す
+→ Interiorが家具カテゴリごとにResearchサブエージェントを起動(都度)
+→ Researchが楽天/Yahoo!ショッピングで実在商品を検索して返す
+→ Interiorが選定・レイアウト・金額をまとめてproject.jsonに保存
+→ 秘書AIがりゅーじ君に結果を報告
+```
+
+データの受け渡し形式は`07_System/商品データ構造.md`に統一済み。画像生成(Higgsfield等)は未接続(`image_generation_request.status: "not_yet_connected"`)で、雛形のデータだけ用意してある。りゅーじ君が今後MCP接続する予定。
+
 ## 将来追加予定(今は着手しない)
 
 | レイヤー | 予定メンバー | 役割 |
 |---|---|---|
 | 収集 | リソースInstagram AI | インテリア系投稿など、内容の収集 |
-| 収集 | リソースWeb AI・商品検索 | 幅広い情報収集、楽天/Yahoo!ショッピングでの家具検索(無人実行にはPlaywright MCPの導入が必要、Claude in Chromeは人がいないと動かない) |
-| 分析・知識化 | Content Agent | Knowledge/My Knowledgeを、X/note/TikTokなど媒体別の発信コンテンツに変換(元ネタのコピーは禁止、独自の切り口で作る) |
-| 分析・知識化 | Interior Agent | 実在家具を検索・組み合わせ、実寸レイアウトと完成イメージを作る。画像生成はHiggsfield等をMCP連携予定(雛形完成後) |
+| 収集 | リソースWeb AI・商品検索 | 無人実行でも商品検索できるようにする場合はPlaywright MCPの導入が必要(今はClaude in Chromeのみ対応、人がいる会話中しか動かない) |
 | 分析・知識化 | QA拡張 | Content/Interiorの成果物(コピペになってないか、商品情報が実在するか等)もチェック対象に加える |
+| 連携 | Higgsfield等の画像生成MCP | りゅーじ君が雛形完成後に自分で接続予定 |
 
-「ナレッジまでは今の仕組みで進める、Content/Interior/画像生成は土台がまだ無いので後で着手する」という優先順位。
+「ナレッジは今の仕組みで自動運用中、Content/Interior/Researchは土台完成、実際に使うのはこれから」という状態。
 
 ## ジャンル(置き場所)の自動判断について
 

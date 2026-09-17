@@ -6,3 +6,4 @@
 __pycache__/
 *.pyc
 07_System/launchd/logs/
+.claude/

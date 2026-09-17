@@ -3,7 +3,7 @@ export PATH="/Users/ryuji/.npm-global/bin:/opt/homebrew/bin:/usr/local/bin:/usr/
 cd /Users/ryuji/sb-mac
 LOG_DIR=/Users/ryuji/sb-mac/07_System/launchd/logs
 mkdir -p "$LOG_DIR"
-PROMPT="$(cat 07_System/launchd/knowledge_reviewer_prompt.md)"
+PROMPT="$(cat 07_System/launchd/knowledge_review_prompt.md)"
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') 開始 ===" >> "$LOG_DIR/knowledge-review.log"
 claude -p "$PROMPT" \
   --permission-mode acceptEdits \

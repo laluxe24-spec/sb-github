@@ -15,6 +15,15 @@
         <key>Minute</key>
         <integer>15</integer>
     </dict>
+    <key>WatchPaths</key>
+    <array>
+        <string>/Users/ryuji/sb-mac/03_Knowledge</string>
+        <string>/Users/ryuji/sb-mac/04_MyKnowledge</string>
+        <string>/Users/ryuji/sb-mac/05_Projects</string>
+        <string>/Users/ryuji/sb-mac/06_Outputs</string>
+        <string>/Users/ryuji/sb-mac/07_System</string>
+        <string>/Users/ryuji/sb-mac/CLAUDE.md</string>
+    </array>
     <key>StandardOutPath</key>
     <string>/Users/ryuji/sb-mac/07_System/launchd/logs/sync-mobile-launchd.log</string>
     <key>StandardErrorPath</key>

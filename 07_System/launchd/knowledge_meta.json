@@ -884,7 +884,7 @@
   "課題の分離": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -898,7 +898,7 @@
   "承認欲求を手放して自由に生きる": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -912,7 +912,7 @@
   "原因ではなく目的から考える(目的論)": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -926,7 +926,7 @@
   "自己受容(60点の自分を受け入れる)": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -940,7 +940,7 @@
   "『いま、ここ』に集中し、行為そのものに価値を置く": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -953,7 +953,7 @@
   "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -967,7 +967,7 @@
   "下向き矢印法で『本当の思い込み(スキーマ)』を見つける": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -981,7 +981,7 @@
   "アサーティブに伝える": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -994,7 +994,7 @@
   "問題を具体的にし、一つずつ解決する": {
     "type": "applied_knowledge",
     "genre": "02_Psychology",
-    "file": "03_Knowledge/02_Psychology/判断ツール集.md",
+    "file": "03_Knowledge/02_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -1007,7 +1007,7 @@
   "アタッチメント・タイプを見分ける(黄金のルール)": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1022,7 +1022,7 @@
   "NタイプとVタイプの悪循環(ジェットコースター効果)に気づく": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1036,7 +1036,7 @@
   "離別ストラテジーに気づく": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1050,7 +1050,7 @@
   "Sタイプ的コミュニケーション(気持ちを伝える/けんかを乗り切る)": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/行動.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1063,7 +1063,7 @@
   "執着の分散理論": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/行動.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1076,7 +1076,7 @@
   "うわっつらKINDNESS理論": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/行動.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1089,7 +1089,7 @@
   "ファーストラブ理論": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1104,7 +1104,7 @@
   "サプライズ理論": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1117,7 +1117,7 @@
   "エジソン理論": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1130,7 +1130,7 @@
   "男性脳・女性脳を見分ける5つの視点": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/男女脳戦略"
     ],
@@ -1144,7 +1144,7 @@
   "脳タイプに合わせて伝え方を変える": {
     "type": "applied_knowledge",
     "genre": "03_Romance",
-    "file": "03_Knowledge/03_Romance/判断ツール集.md",
+    "file": "03_Knowledge/03_Romance/判断.md",
     "sources": [
       "kindle/男女脳戦略"
     ],
@@ -1157,7 +1157,7 @@
   "テレアポで切られてもすぐ電話を切らない": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
+    "file": "03_Knowledge/04_Sales/行動.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1170,7 +1170,7 @@
   "時間の許可を求めずドア・イン・ザ・フェイス的に粘る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
+    "file": "03_Knowledge/04_Sales/行動.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1183,7 +1183,7 @@
   "サービス内容ではなくBefore/Afterを話す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
+    "file": "03_Knowledge/04_Sales/行動.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1196,52 +1196,78 @@
   "切り返しの目的は論破ではなく背中を押すこと": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7443360052288785682.md", "transcripts/7671844559889943829.md", "transcripts/7196977938066132226.md", "transcripts/7332356061304786177.md", "transcripts/7337179624339787009.md", "transcripts/7324139502396574978.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7443360052288785682.md",
+      "transcripts/7671844559889943829.md",
+      "transcripts/7196977938066132226.md",
+      "transcripts/7332356061304786177.md",
+      "transcripts/7337179624339787009.md",
+      "transcripts/7324139502396574978.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["マイナスでなくプラスを聞く", "共感はせよ、ただ納得はするな"],
+    "related": [
+      "マイナスでなくプラスを聞く",
+      "共感はせよ、ただ納得はするな"
+    ],
     "last_updated": "2026-09-16"
   },
   "マイナスでなくプラスを聞く": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7287539608550706433.md", "transcripts/7296410419671928065.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7287539608550706433.md",
+      "transcripts/7296410419671928065.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["切り返しの目的は論破ではなく背中を押すこと"],
+    "related": [
+      "切り返しの目的は論破ではなく背中を押すこと"
+    ],
     "last_updated": "2026-09-16"
   },
   "共感はせよ、ただ納得はするな": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7614283680265112848.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7614283680265112848.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
-    "related": ["切り返しの目的は論破ではなく背中を押すこと"],
+    "related": [
+      "切り返しの目的は論破ではなく背中を押すこと"
+    ],
     "last_updated": "2026-09-16"
   },
   "感謝の言葉は自信と余裕を示すために使う": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7403343348913753360.md", "transcripts/7624672072563739920.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7403343348913753360.md",
+      "transcripts/7624672072563739920.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
-    "related": ["マジックワード"],
+    "related": [
+      "マジックワード"
+    ],
     "last_updated": "2026-09-16"
   },
   "「〜だと思います」を使わず言い切る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7503376831861640466.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7503376831861640466.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1251,8 +1277,10 @@
   "逆接のイエスバットではなく順接のイエスそうを使う": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7503376831861640466.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7503376831861640466.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1262,30 +1290,44 @@
   "「高いですね」への切り返し(価値の上乗せ)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7320424722565532929.md", "transcripts/7440447459010153746.md", "transcripts/7608860194432470279.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7320424722565532929.md",
+      "transcripts/7440447459010153746.md",
+      "transcripts/7608860194432470279.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["比較を作る"],
+    "related": [
+      "比較を作る"
+    ],
     "last_updated": "2026-09-16"
   },
   "「考えます」は断り文句ではなく欲しい証拠": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7450404499279088903.md", "transcripts/7597765148681489680.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7450404499279088903.md",
+      "transcripts/7597765148681489680.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["切り返しの目的は論破ではなく背中を押すこと"],
+    "related": [
+      "切り返しの目的は論破ではなく背中を押すこと"
+    ],
     "last_updated": "2026-09-16"
   },
   "現状維持バイアス(めんどくさい)への対策": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7391758752023710984.md", "transcripts/7611872750705184001.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7391758752023710984.md",
+      "transcripts/7611872750705184001.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1295,8 +1337,12 @@
   "「相談したい」の見極めと切り返し": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7342705502800956680.md", "transcripts/7503377264692759816.md", "transcripts/7650425149639937300.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7342705502800956680.md",
+      "transcripts/7503377264692759816.md",
+      "transcripts/7650425149639937300.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1306,8 +1352,11 @@
   "「今日は決めません」という前置きへの対応": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7314565840412609793.md", "transcripts/7396932505451973906.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7314565840412609793.md",
+      "transcripts/7396932505451973906.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1317,8 +1366,14 @@
   "既存の他社利用者への切り返し": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7355785000953924872.md", "transcripts/7473785932366368007.md", "transcripts/7557639018641460501.md", "transcripts/7567185102657047829.md", "transcripts/7334896543188684033.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7355785000953924872.md",
+      "transcripts/7473785932366368007.md",
+      "transcripts/7557639018641460501.md",
+      "transcripts/7567185102657047829.md",
+      "transcripts/7334896543188684033.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1328,30 +1383,43 @@
   "ドア・イン・ザ・フェイス": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7306392855843507458.md", "transcripts/7314128361473854721.md", "transcripts/7366958844351630599.md", "transcripts/7399833547021880577.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7306392855843507458.md",
+      "transcripts/7314128361473854721.md",
+      "transcripts/7366958844351630599.md",
+      "transcripts/7399833547021880577.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["フット・イン・ザ・ドア"],
+    "related": [
+      "フット・イン・ザ・ドア"
+    ],
     "last_updated": "2026-09-16"
   },
   "フット・イン・ザ・ドア": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7499807280263712018.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7499807280263712018.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["ドア・イン・ザ・フェイス"],
+    "related": [
+      "ドア・イン・ザ・フェイス"
+    ],
     "last_updated": "2026-09-16"
   },
   "二者択一・ダブルバインド": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7499807280263712018.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7499807280263712018.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1361,8 +1429,11 @@
   "ラベリング効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7311122904442244354.md", "transcripts/7627056286793747733.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7311122904442244354.md",
+      "transcripts/7627056286793747733.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1372,19 +1443,28 @@
   "ウィンザー効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7366077645882199314.md", "transcripts/7382204994923138312.md", "transcripts/7663760567949085973.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7366077645882199314.md",
+      "transcripts/7382204994923138312.md",
+      "transcripts/7663760567949085973.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["比較を作る"],
+    "related": [
+      "比較を作る"
+    ],
     "last_updated": "2026-09-16"
   },
   "バンドワゴン効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7382204994923138312.md", "transcripts/7403540893854174480.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7382204994923138312.md",
+      "transcripts/7403540893854174480.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1394,8 +1474,11 @@
   "カクテルパーティー効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7274800633469848833.md", "transcripts/7342704475364134162.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7274800633469848833.md",
+      "transcripts/7342704475364134162.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1405,19 +1488,27 @@
   "一貫性の原理の使い方": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7403540893854174480.md", "transcripts/7480847865363827984.md", "transcripts/7314151287715532034.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7403540893854174480.md",
+      "transcripts/7480847865363827984.md",
+      "transcripts/7314151287715532034.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["どこが良かったか、なぜ良かったかを聞く"],
+    "related": [
+      "どこが良かったか、なぜ良かったかを聞く"
+    ],
     "last_updated": "2026-09-16"
   },
   "フレーミング効果": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7376083056009940231.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7376083056009940231.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1427,8 +1518,10 @@
   "メラビアンの法則の正しい理解": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7407695739754761490.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7407695739754761490.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1438,19 +1531,26 @@
   "ザイアンスの熟知の法則で本音を引き出す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7544022118493719816.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7544022118493719816.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["第三者話法+実績+親近性"],
+    "related": [
+      "第三者話法+実績+親近性"
+    ],
     "last_updated": "2026-09-16"
   },
   "権威の心理学": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7373589118204382482.md", "transcripts/7447799940715171090.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7373589118204382482.md",
+      "transcripts/7447799940715171090.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1460,8 +1560,11 @@
   "人の本音は3回目に出る(3度押し)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7287537946817809665.md", "transcripts/7347530871357984007.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7287537946817809665.md",
+      "transcripts/7347530871357984007.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1471,8 +1574,11 @@
   "突然はごめんね、でも自信あるからの構え": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7311125578931834113.md", "transcripts/7408003328199707922.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7311125578931834113.md",
+      "transcripts/7408003328199707922.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1482,8 +1588,13 @@
   "特別感・当たり前さ・ハテナで注意を引く": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7285654476390665474.md", "transcripts/7320426091385048321.md", "transcripts/7399833547021880577.md", "transcripts/7501308844857953543.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7285654476390665474.md",
+      "transcripts/7320426091385048321.md",
+      "transcripts/7399833547021880577.md",
+      "transcripts/7501308844857953543.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1493,8 +1604,10 @@
   "テレアポの声のトーンと表情": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7399833547021880577.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7399833547021880577.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1504,8 +1617,10 @@
   "資料だけ送ってと言われたらヒアリングしてからアポにつなげる": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7399833547021880577.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7399833547021880577.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1515,19 +1630,29 @@
   "一流のプレゼントークの3段階": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7340093802100591890.md", "transcripts/7437779506666032391.md", "transcripts/7360884570050333970.md", "transcripts/7676782619941440789.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7340093802100591890.md",
+      "transcripts/7437779506666032391.md",
+      "transcripts/7360884570050333970.md",
+      "transcripts/7676782619941440789.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["地獄と天国のギャップ"],
+    "related": [
+      "地獄と天国のギャップ"
+    ],
     "last_updated": "2026-09-16"
   },
   "具体的な一コマを想像させる": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7360884570050333970.md", "transcripts/7382202564512697608.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7360884570050333970.md",
+      "transcripts/7382202564512697608.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1537,19 +1662,27 @@
   "地獄と天国のギャップ": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7337179624339787009.md", "transcripts/7345394911136517394.md", "transcripts/7648408665245879573.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7337179624339787009.md",
+      "transcripts/7345394911136517394.md",
+      "transcripts/7648408665245879573.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["一流のプレゼントークの3段階"],
+    "related": [
+      "一流のプレゼントークの3段階"
+    ],
     "last_updated": "2026-09-16"
   },
   "問題提起から解決の順で話す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7635235460570254613.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7635235460570254613.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1559,19 +1692,29 @@
   "比較を作る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7353183652186033415.md", "transcripts/7366077645882199314.md", "transcripts/7635235460570254613.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7353183652186033415.md",
+      "transcripts/7366077645882199314.md",
+      "transcripts/7635235460570254613.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
-    "related": ["「高いですね」への切り返し(価値の上乗せ)"],
+    "related": [
+      "「高いですね」への切り返し(価値の上乗せ)"
+    ],
     "last_updated": "2026-09-16"
   },
   "ベネフィット(利点)を語る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7353183652186033415.md", "transcripts/7402128228015492353.md", "transcripts/7640276072612859156.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7353183652186033415.md",
+      "transcripts/7402128228015492353.md",
+      "transcripts/7640276072612859156.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1581,8 +1724,11 @@
   "AREA話法": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7378686187508075794.md", "transcripts/7586196467514133781.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7378686187508075794.md",
+      "transcripts/7586196467514133781.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1592,8 +1738,12 @@
   "理由は3つまで(ピラミッドストラクチャー)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7298969655127985410.md", "transcripts/7340092594745134344.md", "transcripts/7637807018664906005.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7298969655127985410.md",
+      "transcripts/7340092594745134344.md",
+      "transcripts/7637807018664906005.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1603,8 +1753,10 @@
   "「3連発」で畳みかける": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7635235460570254613.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7635235460570254613.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1614,8 +1766,11 @@
   "視覚に訴える資料を作る": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7678985639148244244.md", "transcripts/7663760567949085973.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7678985639148244244.md",
+      "transcripts/7663760567949085973.md"
+    ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
@@ -1625,8 +1780,11 @@
   "話に集中させ続ける工夫": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7525624372724288786.md", "transcripts/7678985639148244244.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7525624372724288786.md",
+      "transcripts/7678985639148244244.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1636,8 +1794,10 @@
   "蛇の尻尾のクロージング": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7353185081294441735.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7353185081294441735.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1647,30 +1807,46 @@
   "どこが良かったか、なぜ良かったかを聞く": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7314151287715532034.md", "transcripts/7340092594745134344.md", "transcripts/7480847865363827984.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7314151287715532034.md",
+      "transcripts/7340092594745134344.md",
+      "transcripts/7480847865363827984.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["一貫性の原理の使い方"],
+    "related": [
+      "一貫性の原理の使い方"
+    ],
     "last_updated": "2026-09-16"
   },
   "プラスのシャワー": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7386860307441831175.md", "transcripts/7528691559009635592.md", "transcripts/7645631456106040597.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7386860307441831175.md",
+      "transcripts/7528691559009635592.md",
+      "transcripts/7645631456106040597.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["どこが良かったか、なぜ良かったかを聞く"],
+    "related": [
+      "どこが良かったか、なぜ良かったかを聞く"
+    ],
     "last_updated": "2026-09-16"
   },
   "マジックワード": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7403343348913753360.md", "transcripts/7433993363277303048.md", "transcripts/7624672072563739920.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7403343348913753360.md",
+      "transcripts/7433993363277303048.md",
+      "transcripts/7624672072563739920.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1680,8 +1856,11 @@
   "沈黙を怖がらない(クロージングシグナル理論)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7359196357925588232.md", "transcripts/7473785424159214856.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7359196357925588232.md",
+      "transcripts/7473785424159214856.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1691,8 +1870,10 @@
   "クローザーの心構え": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7535769248124259591.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7535769248124259591.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1702,19 +1883,29 @@
   "第三者話法+実績+親近性": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7301536334089293057.md", "transcripts/7326727017838169345.md", "transcripts/7447799940715171090.md", "transcripts/7669211966501670164.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7301536334089293057.md",
+      "transcripts/7326727017838169345.md",
+      "transcripts/7447799940715171090.md",
+      "transcripts/7669211966501670164.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
-    "related": ["ザイアンスの熟知の法則で本音を引き出す"],
+    "related": [
+      "ザイアンスの熟知の法則で本音を引き出す"
+    ],
     "last_updated": "2026-09-16"
   },
   "雑談の目的は自慢話をさせること": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7575716254728654101.md", "transcripts/7501308844857953543.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7575716254728654101.md",
+      "transcripts/7501308844857953543.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1724,8 +1915,11 @@
   "褒め方は内面・センス・過去を褒める": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7661213666796195093.md", "transcripts/7285654476390665474.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7661213666796195093.md",
+      "transcripts/7285654476390665474.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1735,8 +1929,12 @@
   "嫌われる無自覚な癖に注意する": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7332357064645168386.md", "transcripts/7391764950038940936.md", "transcripts/7587606770613259540.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7332357064645168386.md",
+      "transcripts/7391764950038940936.md",
+      "transcripts/7587606770613259540.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1746,8 +1944,11 @@
   "NGワードを避ける": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7378684511816568082.md", "transcripts/7503376831861640466.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7378684511816568082.md",
+      "transcripts/7503376831861640466.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1757,8 +1958,10 @@
   "信頼を失う3つのNG(顧客目線)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7427295055414824199.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7427295055414824199.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1768,8 +1971,12 @@
   "新人は1年目アピールをしない": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7317472029266005249.md", "transcripts/7387977886826794247.md", "transcripts/7414089404861484306.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7317472029266005249.md",
+      "transcripts/7387977886826794247.md",
+      "transcripts/7414089404861484306.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1779,8 +1986,10 @@
   "商談で緊張しない方法": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7488981440764431634.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7488981440764431634.md"
+    ],
     "matched_accounts": [],
     "confidence": "B",
     "status": "verified",
@@ -1790,8 +1999,11 @@
   "主導権の握り方": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7308926762409348353.md", "transcripts/7501307917199609106.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7308926762409348353.md",
+      "transcripts/7501307917199609106.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1801,8 +2013,10 @@
   "平均の法則(スランプ対策)": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7370885947216514312.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7370885947216514312.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1812,8 +2026,11 @@
   "感覚に頼らず言語化する": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7461239447636430087.md", "transcripts/7658231415087123733.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7461239447636430087.md",
+      "transcripts/7658231415087123733.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1823,8 +2040,10 @@
   "売れない言い訳を手放す": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7621747639519841557.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7621747639519841557.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1834,8 +2053,10 @@
   "アポがない日こそ勝負の日、保留を作らない": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7586201401609538837.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7586201401609538837.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1845,8 +2066,10 @@
   "健康を最優先にする": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7586201401609538837.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7586201401609538837.md"
+    ],
     "matched_accounts": [],
     "confidence": "D",
     "status": "verified",
@@ -1856,8 +2079,10 @@
   "ロープレでは羞恥心を捨てる": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/乾式テクニック.md",
-    "sources": ["transcripts/7629652349631335701.md"],
+    "file": "03_Knowledge/04_Sales/行動.md",
+    "sources": [
+      "transcripts/7629652349631335701.md"
+    ],
     "matched_accounts": [],
     "confidence": "C",
     "status": "verified",
@@ -1867,7 +2092,9 @@
   "在庫を偽って残りわずかと見せる希少性演出": {
     "type": "action",
     "genre": "04_Sales",
-    "sources": ["transcripts/7530810925771721991.md"],
+    "sources": [
+      "transcripts/7530810925771721991.md"
+    ],
     "matched_accounts": [],
     "confidence": "D",
     "status": "hold",
@@ -1878,7 +2105,10 @@
   "論点をすり替えてイエスを取る切り返し": {
     "type": "action",
     "genre": "04_Sales",
-    "sources": ["transcripts/7350174575239466247.md", "transcripts/7546762692736879880.md"],
+    "sources": [
+      "transcripts/7350174575239466247.md",
+      "transcripts/7546762692736879880.md"
+    ],
     "matched_accounts": [],
     "confidence": "D",
     "status": "hold",
@@ -1889,7 +2119,10 @@
   "社会的証明を使い恥に訴えて追い込む切り返し": {
     "type": "action",
     "genre": "04_Sales",
-    "sources": ["transcripts/7421732897255689479.md", "transcripts/7656267493811588372.md"],
+    "sources": [
+      "transcripts/7421732897255689479.md",
+      "transcripts/7656267493811588372.md"
+    ],
     "matched_accounts": [],
     "confidence": "D",
     "status": "hold",

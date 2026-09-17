@@ -16,8 +16,8 @@
         <integer>0</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/knowledge-review-launchd.log</string>
+    <string>/Users/ryuji/sb-mac-logs/knowledge-review-launchd.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/knowledge-review-launchd.log</string>
+    <string>/Users/ryuji/sb-mac-logs/knowledge-review-launchd.log</string>
 </dict>
 </plist>

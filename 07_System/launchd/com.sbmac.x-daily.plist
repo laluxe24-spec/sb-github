@@ -16,8 +16,8 @@
         <integer>15</integer>
     </dict>
     <key>StandardOutPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/x-launchd.log</string>
+    <string>/Users/ryuji/sb-mac-logs/x-launchd.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/x-launchd-error.log</string>
+    <string>/Users/ryuji/sb-mac-logs/x-launchd-error.log</string>
 </dict>
 </plist>

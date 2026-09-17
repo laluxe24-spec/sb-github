@@ -1,7 +1,7 @@
 #!/bin/zsh
 export PATH="/Users/ryuji/.npm-global/bin:/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin"
 cd /Users/ryuji/sb-mac
-LOG_DIR=/Users/ryuji/sb-mac/07_System/launchd/logs
+LOG_DIR=/Users/ryuji/sb-mac-logs
 mkdir -p "$LOG_DIR"
 PROMPT="$(cat 07_System/launchd/knowledge_agent_prompt.md)"
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') 開始 ===" >> "$LOG_DIR/knowledge-agent.log"

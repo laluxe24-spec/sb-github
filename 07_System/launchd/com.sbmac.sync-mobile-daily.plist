@@ -25,8 +25,8 @@
         <string>/Users/ryuji/sb-mac/CLAUDE.md</string>
     </array>
     <key>StandardOutPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/sync-mobile-launchd.log</string>
+    <string>/Users/ryuji/sb-mac-logs/sync-mobile-launchd.log</string>
     <key>StandardErrorPath</key>
-    <string>/Users/ryuji/sb-mac/07_System/launchd/logs/sync-mobile-launchd-error.log</string>
+    <string>/Users/ryuji/sb-mac-logs/sync-mobile-launchd-error.log</string>
 </dict>
 </plist>

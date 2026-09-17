@@ -15,10 +15,10 @@
 3. 「残す」と判定した画像を `data/@kw1ew/スクショ/` へ、既存の最大連番の続きから番号を振ってコピーする。
 4. `data/@kw1ew/manifest.json` に `{file: "スクショ/xxx.jpg", tweet_url}` を追記する(元のバッチのURLは`collect_media.js`が生成した情報から参照)。
 5. `scripts/screenshots_batchN/` の生データを削除する。
-6. `07_System/launchd/logs/kw1ew-collector.log` に、今回の取得数・採用数・除外数と、採用したファイル名の一覧を記録する。
+6. `/Users/ryuji/sb-mac-logs/kw1ew-collector.log` に、今回の取得数・採用数・除外数と、採用したファイル名の一覧を記録する。
 
 ## 注意
 
 - 対象アカウントは`kw1ew`のみ(他のスクショ型アカウントが増えたら、その時に対象を追加する)
-- 際どい判定を多くした回や、基準に自信が持てない画像があれば、`07_System/launchd/logs/kw1ew-collector.log`に一言メモを残す(週次で人が見返すため)
+- 際どい判定を多くした回や、基準に自信が持てない画像があれば、`/Users/ryuji/sb-mac-logs/kw1ew-collector.log`に一言メモを残す(週次で人が見返すため)
 - 最後に、今回の結果(取得N件、採用N件、除外N件)を簡潔に出力して終わる

@@ -128,10 +128,10 @@
 
 - `knowledge_progress.json`の`processed_files`に、今回判断した分(保留・除外含む)を追記する
 - 1回の実行で処理する新着は**最大100件**まで(それ以上あれば、処理した分だけ記録して終了し、残りは翌日以降に回す。無理に全部やろうとしない)
-- 同じ`.md`ファイルを同じ実行の中で5回以上書き換えるような挙動になったら、設計ミスの兆候として処理を打ち切り、`07_System/launchd/logs/knowledge-skipped.log`に状況を記録する
+- 同じ`.md`ファイルを同じ実行の中で5回以上書き換えるような挙動になったら、設計ミスの兆候として処理を打ち切り、`/Users/ryuji/sb-mac-logs/knowledge-skipped.log`に状況を記録する
 - 最後に、今回やったこと(処理件数、種別ごとの内訳、新規/更新/保留、サブエージェント使用回数)を簡潔に出力して終わる
 
 ## 注意
 
 - Bashツールは使えない設定なので、ファイルの読み書き(Read/Write/Edit/Glob/Grep)とAgent機能だけで完結させること
-- 判断に自信が持てないものは無理にまとめず、`07_System/launchd/logs/knowledge-skipped.log`に一言メモを残してスキップしてよい
+- 判断に自信が持てないものは無理にまとめず、`/Users/ryuji/sb-mac-logs/knowledge-skipped.log`に一言メモを残してスキップしてよい

@@ -35,7 +35,7 @@ function saveProcessed(set) {
   fs.mkdirSync(batchDir, { recursive: true });
 
   const browser = await chromium.launch({
-    headless: false,
+    headless: true,
     args: ['--disable-blink-features=AutomationControlled'],
   });
   const context = await browser.newContext({

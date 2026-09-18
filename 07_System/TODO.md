@@ -92,4 +92,4 @@
 
 **イメージ**: knowledge-agent-daily(5:40)→knowledge-review-daily(6:00)と同じように、その後に自動で動くジョブを追加する形(パターン1)。パターン2は都度お願いする形(将来的に自動化も検討)。
 
-**ステータス**: 未着手(方針確定、詳細設計は実行時)
+**ステータス**: パターン1は実装済み(2026-09-18)。`research_agent_prompt.md`・`run_research_agent_daily.sh`・`com.sbmac.research-agent-daily.plist`(朝6:15、knowledge-review-dailyの後)を作成済み。**ただしMac側で`launchctl load`する手動作業がまだ残ってる**(下記参照)。パターン2(能動的な分野指定収集)は未着手のまま。

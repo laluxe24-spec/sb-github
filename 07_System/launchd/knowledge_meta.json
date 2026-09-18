@@ -2128,6 +2128,190 @@
     "status": "hold",
     "hold_reason": "動画内でも「えぐい」「客は100%納得していない」と自認される心理的圧迫による誘導のため除外。",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-18"
+  },
+  "褒められた・探りを入れられた時は一度拾ってから返す": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/行動.md",
+    "sources": [
+      "Todai_Renai/2100525516054843822",
+      "Todai_Renai/2100525514926457328",
+      "mai_x0x0_21/2098973454645207504",
+      "mai_x0x0_21/2098973442594975773"
+    ],
+    "matched_sources": ["Todai_Renai", "mai_x0x0_21"],
+    "confidence": "B",
+    "status": "verified",
+    "related": ["感情への反応が事実への反応より効く"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "問題が起きた時の対応で信頼性が判断される": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/行動.md",
+    "sources": ["romantic_thai/2100419489581957436", "romantic_thai/2100419489279983691"],
+    "matched_sources": [],
+    "confidence": "B",
+    "status": "tentative",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "恋愛の話題には他人の恋愛話から段階的に入る": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/行動.md",
+    "sources": ["romantic_thai/2099974053587292653", "romantic_thai/2099974040962388203"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "tentative",
+    "related": ["距離を縮める(自己開示は小出しに)"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "メンタルを弱くする3つの原因への対処": {
+    "kind": "action",
+    "genre": "02_Psychology",
+    "file": "03_Knowledge/02_Psychology/行動.md",
+    "sources": ["eigyou.inui/7674522454227717396"],
+    "matched_sources": [],
+    "confidence": "B",
+    "status": "verified",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "名前の呼び方で特別感を演出する(呼びすぎ/呼ばなすぎ/ここぞという時だけ呼ぶ)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": [
+      "mai_x0x0_21/2098179450370433130",
+      "mai_x0x0_21/2098179453943984163",
+      "mai_x0x0_21/2097521374579605676",
+      "mai_x0x0_21/2097521386596307398",
+      "mai_x0x0_21/2095641187416002634",
+      "mai_x0x0_21/2095641199394861494"
+    ],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "同一発信元(mai_x0x0_21)内での反復のみで他アカウントとの横断確認ができていない。次回以降に他ソースでの一致を確認してから採否判断する。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "身の丈に理想の条件を合わせる(自分の市場価値の客観視)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["mai_x0x0_21/2098608047035928637", "mai_x0x0_21/2098608035056976093"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元のみ。既存Knowledgeの「自己卑下はNG」と矛盾しない範囲で条件の絞り方の話だが、横断確認できるまで保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "デートで未来の話をして関係を想像させる": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["bagurase_tyan/2100148451963204028", "bagurase_tyan/2100148413480456561"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元、かつ具体的フレーズ列挙のテンプレ寄りの投稿のため、原則部分のみ抽出候補として保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "女性脳をハックする系の煽り投稿(除外)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["Todai_Renai/2099808368768500168", "Todai_Renai/2099808367506063804"],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "「女性脳をハックする」「何千回と検証」等の煽情的・商材宣伝的な言い回しが強く、除外基準(攻略・支配を煽る文言)に該当するため対象外。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "グイグイ系の告白がドーパミン依存を生むという主張(除外)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["romantic_thai/2100169278083539396", "romantic_thai/2100169266196877325"],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "根拠不明な断定的ポップ心理学表現で、強引なアプローチを正当化する方向に働きかねないため対象外。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "テンポを崩す・思い通りにさせない等の焦らし戦略(除外・繰り返し投稿)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": [
+      "romantic_thai/2100633542904676441",
+      "romantic_thai/2100346374906925123",
+      "romantic_thai/2099887456233668842",
+      "romantic_thai/2099880352412303667"
+    ],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "同一文面が繰り返し投稿されている宣伝寄りのテンプレ投稿で、具体性のない煽りワードのみのため対象外。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "ドSムーブ・強オスの嫉妬フレーズ集(除外)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": [
+      "bagurase_tyan/2100510655518568543",
+      "bagurase_tyan/2100510579803017702",
+      "bagurase_tyan/2100059255260999730",
+      "bagurase_tyan/2100058180890075339",
+      "bagurase_tyan/2099785625662816609",
+      "bagurase_tyan/2099785537746006136"
+    ],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "除外基準の「釣り文句集」に該当するセリフ列挙テンプレ投稿のため対象外。根底の「自信を見せる」原則自体は既存Knowledgeで採用済み。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "eigyou.inui 書籍・オーディオブック宣伝動画(除外)": {
+    "kind": "action",
+    "genre": "04_Sales",
+    "sources": [
+      "eigyou.inui/7626963238902697237",
+      "eigyou.inui/7627798378201484565",
+      "eigyou.inui/7643003924399623445"
+    ],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "自著オーディオブック化・増刷の宣伝動画で、営業技術としての抽出対象なし。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
+  },
+  "eigyou.inui おすすめ営業講師3名紹介(除外)": {
+    "kind": "action",
+    "genre": "04_Sales",
+    "sources": ["eigyou.inui/7632641322096020757"],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "特定講師への個人的な賛辞・体験談が中心で、再現可能な技術としての抽出対象がない。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-18"
   }
 }

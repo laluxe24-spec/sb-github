@@ -12,7 +12,7 @@ sb-macで動くAI全体の基本構造。
 
 ## 機械的な作業(AI判断は基本不要)
 
-決められた処理を実行するだけの仕事。情報の取得(X・TikTok・Threads・Instagram・Web・Kindleなど)、ファイルの整理・移動、決められた形式への変換、iPhoneへの同期など。launchd・API・Playwright・yt-dlpなどを使って自動実行する。
+決められた処理を実行するだけの仕事。情報の取得(X・TikTok・Threads・Instagram・Web・Kindleなど)、ファイルの整理・移動、決められた形式への変換など。launchd・API・Playwright・yt-dlpなどを使って自動実行する。
 
 ## サブエージェント(必要なときだけ呼ぶ)
 

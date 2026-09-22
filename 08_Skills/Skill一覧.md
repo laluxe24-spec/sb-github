@@ -1,5 +1,13 @@
 # Skill一覧
 
+psychology-research-daily
+心理学リサーチ(毎日1件・無人実行)
+心理学ジャンルの待ちリストを1日1件調べて判断・行動カード形式でナレッジ化する
+
+youtube-transcribe
+YouTube文字起こし
+YouTube動画をしゃべってる内容そのまま文字起こしして保存する
+
 tiktok-transcribe
 TikTok文字起こし
 TikTok動画をしゃべってる内容そのまま文字起こしして保存する
@@ -32,6 +40,3 @@ research-agent
 裏付けデータ取得(Research)
 ナレッジの内容に学術的な裏付け(論文・研究)を追加する
 
-research-topic
-裏付けデータ取得(能動的・ジャンル指定)
-指定したジャンルの論文・学術資料を集めて、概要が分かるナレッジファイルを作る

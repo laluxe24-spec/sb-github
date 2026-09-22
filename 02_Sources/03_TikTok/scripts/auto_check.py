@@ -15,6 +15,20 @@ import transcribe
 
 DATA_DIR = transcribe.DATA_DIR
 PLAYLIST_LIMIT = 30
+EXCLUDED_ACCOUNTS_PATH = Path(__file__).parent / "excluded_accounts.txt"
+
+
+def excluded_accounts() -> set[str]:
+    """自動収集の対象から外すアカウント名(@なし)の一覧。
+    1行1アカウント名、#で始まる行はコメントとして無視する。"""
+    if not EXCLUDED_ACCOUNTS_PATH.exists():
+        return set()
+    lines = EXCLUDED_ACCOUNTS_PATH.read_text().splitlines()
+    return {
+        line.strip().lstrip("@")
+        for line in lines
+        if line.strip() and not line.strip().startswith("#")
+    }
 
 
 def account_profile_url(account_dir: Path) -> str:
@@ -55,8 +69,12 @@ def known_video_ids(account_dir: Path) -> set[str]:
 
 def main() -> None:
     total_new = 0
+    excluded = excluded_accounts()
     for account_dir in sorted(DATA_DIR.glob("@*")):
         if not account_dir.is_dir():
+            continue
+        if account_dir.name.lstrip("@") in excluded:
+            print(f"=== {account_dir.name} は除外リストのためスキップ ===")
             continue
         profile_url = account_profile_url(account_dir)
         print(f"=== {account_dir.name} の新着をチェック中 ===")

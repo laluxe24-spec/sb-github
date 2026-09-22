@@ -6,8 +6,9 @@
 
 1. `02_Sources/02_X/scripts/` で以下を実行し、新着の候補スクショを取得する。
    ```
-   node collect_media.js kw1ew 30
+   node collect_media.js 30
    ```
+   (第1引数は件数のみ。アカウント名は渡さない — `collect_media.js`内でUSERNAMEは`kw1ew`に固定されており、アカウント名を渡すと件数がNaNになり0件で終了するバグが過去にあった)
    (`processed_ids.json`により、前回までに取得済みのツイートは自動的にスキップされる。新着が0件ならここで終了してよい)
 2. `scripts/screenshots_batchN/` に保存された候補画像を1枚ずつ確認し、`操作メモ.md`の「残す/除外」基準で判定する。
    - 判断に迷う場合は「実際の口説き会話のテクニック例になっているか」を基準にする

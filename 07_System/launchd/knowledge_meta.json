@@ -34,20 +34,27 @@
       "@bagurase_tyan/2091813611773829339",
       "@Todai_Renai/2097979037335634001",
       "@Todai_Renai/2076934749885747428",
-      "@rei0723_X/2095746685112553536"
+      "@rei0723_X/2095746685112553536",
+      "@mai_x0x0_21/2100908508929798250",
+      "@mai_x0x0_21/2100906871058293150",
+      "@mai_x0x0_21/2100877500763209963",
+      "@mirei_urateku/2100781865171100123",
+      "@mirei_urateku/2100419474792812754",
+      "@mirei_urateku/2100419474465632713"
     ],
     "matched_accounts": [
       "Todai_Renai",
       "bagurase_tyan",
       "mai_x0x0_21",
-      "rei0723_X"
+      "rei0723_X",
+      "mirei_urateku"
     ],
     "confidence": "B",
     "status": "verified",
     "related": [
       "追いすぎと追われるの力学"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "優しさだけでは恋愛対象にならない": {
     "type": "action",
@@ -76,18 +83,23 @@
     "sources": [
       "@mai_x0x0_21/2098340521857221110",
       "@rei0723_X/2098227509678743909",
-      "@rei0723_X/2062837973981515895"
+      "@rei0723_X/2062837973981515895",
+      "@mai_x0x0_21/2100724212155728300",
+      "@rei0723_X/2101222763839271377",
+      "@Sta_Loveshinri/2101962212038623593",
+      "@Sta_Loveshinri/2101962214651675037"
     ],
     "matched_accounts": [
       "mai_x0x0_21",
-      "rei0723_X"
+      "rei0723_X",
+      "Sta_Loveshinri"
     ],
     "confidence": "B",
     "status": "verified",
     "related": [
       "脈あり脈なしの誤読"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-22"
   },
   "感情への反応が、事実への反応より圧倒的に効く": {
     "type": "action",
@@ -98,36 +110,48 @@
       "@rei0723_X/2079091228420050946",
       "@Sta_Loveshinri/2072115998229168407",
       "@Sta_Loveshinri/2072115994571727123",
-      "@bagurase_tyan/2082753548358705562"
+      "@bagurase_tyan/2082753548358705562",
+      "@mirei_urateku/2100502517419499850",
+      "@mai_x0x0_21/2100735297566949620",
+      "@mai_x0x0_21/2099487978536259900",
+      "@mai_x0x0_21/2095307131797086503",
+      "@Sta_Loveshinri/2101475761001783803",
+      "@Sta_Loveshinri/2101475763539349823"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
       "bagurase_tyan",
       "mai_x0x0_21",
-      "rei0723_X"
+      "rei0723_X",
+      "mirei_urateku"
     ],
     "confidence": "A",
     "status": "verified",
     "related": [
       "男女の認知差"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "小さな気配りの積み重ねが、高額な一発イベントより効く": {
     "type": "action",
     "sources": [
       "@mai_x0x0_21/2098256575739932962",
       "@rei0723_X/2095085243334361354",
-      "@rei0723_X/2096081493881995305"
+      "@rei0723_X/2096081493881995305",
+      "@mirei_urateku/2100057100638671058",
+      "@mai_x0x0_21/2099999625151418748",
+      "@mai_x0x0_21/2099801348971843952",
+      "@mai_x0x0_21/2098981733391905083"
     ],
     "matched_accounts": [
       "mai_x0x0_21",
-      "rei0723_X"
+      "rei0723_X",
+      "mirei_urateku"
     ],
     "confidence": "B",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "希少性は好意を強めやすいが、意図的な駆け引きとしてやると逆効果": {
     "type": "action",
@@ -135,7 +159,8 @@
       "@Todai_Renai/2069347769496781002",
       "@Todai_Renai/2069347825885004252",
       "@Todai_Renai/2043281081164812432",
-      "@bagurase_tyan/2049051493559644658"
+      "@bagurase_tyan/2049051493559644658",
+      "@Todai_Renai/2100902867003486370"
     ],
     "matched_accounts": [
       "Todai_Renai",
@@ -146,7 +171,7 @@
     "related": [
       "追いすぎと追われるの力学"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "誰にでも同じ態度は「特別感」を消す": {
     "type": "action",
@@ -172,17 +197,19 @@
       "@Sta_Loveshinri/2084069167498735874",
       "@Sta_Loveshinri/2085959558758072771",
       "@mirei_urateku/2093171718865166390",
-      "@bagurase_tyan/2085290425703915857"
+      "@bagurase_tyan/2085290425703915857",
+      "@mai_x0x0_21/2100042415566688318"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
       "bagurase_tyan",
-      "mirei_urateku"
+      "mirei_urateku",
+      "mai_x0x0_21"
     ],
     "confidence": "B",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "清潔感の再定義": {
     "type": "action",
@@ -191,17 +218,19 @@
       "@bagurase_tyan/2080579378917113968",
       "@Sta_Loveshinri/2099624415487246457",
       "@rei0723_X/2060251392607142318",
-      "@rei0723_X/2086389187658572010"
+      "@rei0723_X/2086389187658572010",
+      "@mirei_urateku/2100829616718188724"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
       "bagurase_tyan",
-      "rei0723_X"
+      "rei0723_X",
+      "mirei_urateku"
     ],
     "confidence": "B",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "自信のなさ・自己卑下が経験の少なさそのものより強いマイナス要因": {
     "type": "action",
@@ -210,18 +239,27 @@
       "@Todai_Renai/2069664904102166567",
       "@Todai_Renai/2045078723062608011",
       "@Todai_Renai/2014219634879402058",
-      "@Sta_Loveshinri/2071490157849760072"
+      "@Sta_Loveshinri/2071490157849760072",
+      "@mirei_urateku/2100928801316458919",
+      "@mirei_urateku/2100781865460445185",
+      "@mirei_urateku/2100057101041336466",
+      "@mirei_urateku/2100781865171100123",
+      "@mai_x0x0_21/2100178256884617525",
+      "@mai_x0x0_21/2100008974800347238",
+      "@mai_x0x0_21/2099703927373758638"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
-      "Todai_Renai"
+      "Todai_Renai",
+      "mirei_urateku",
+      "mai_x0x0_21"
     ],
     "confidence": "B",
     "status": "verified",
     "related": [
       "非モテ脱却_自己卑下を減らす"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "自分の世界(仕事・趣味・予定)を持っていることが依存されない余裕につながる": {
     "type": "action",
@@ -229,7 +267,10 @@
       "@Todai_Renai/2069722102501085343",
       "@Todai_Renai/2069721956417699980",
       "@Todai_Renai/2043281135296544836",
-      "@romantic_thai/2092899932491723096"
+      "@romantic_thai/2092899932491723096",
+      "@Todai_Renai/2101599915436556472",
+      "@Todai_Renai/2101599916506100214",
+      "@Todai_Renai/2101599917818970356"
     ],
     "matched_accounts": [
       "Todai_Renai",
@@ -240,23 +281,25 @@
     "related": [
       "追いすぎと追われるの力学"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-22"
   },
   "誘う時は二択で選択肢を絞る": {
     "type": "action",
     "sources": [
       "@bagurase_tyan/2052223453630238983",
-      "@bagurase_tyan/2071882721740431428"
+      "@bagurase_tyan/2071882721740431428",
+      "@mai_x0x0_21/2100182886637085170"
     ],
     "matched_accounts": [
-      "bagurase_tyan"
+      "bagurase_tyan",
+      "mai_x0x0_21"
     ],
     "confidence": "C",
     "status": "verified",
     "related": [
       "「何でもいいよ」は決断放棄に見える"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "店選びは間接照明・横並びで落ち着ける場所が良い": {
     "type": "action",
@@ -314,7 +357,10 @@
     "sources": [
       "@romantic_thai/2096523825748103230",
       "@Todai_Renai/2018528417868824748",
-      "@mai_x0x0_21/2094639237731885058"
+      "@mai_x0x0_21/2094639237731885058",
+      "@romantic_thai/2101423590503862520",
+      "@romantic_thai/2101423602344317167",
+      "@romantic_thai/2101423614025515321"
     ],
     "matched_accounts": [
       "Todai_Renai",
@@ -369,7 +415,10 @@
       "@mai_x0x0_21/2096452342392746340",
       "@mai_x0x0_21/2096452330422214738",
       "@Todai_Renai/2030936482299748710",
-      "@Sta_Loveshinri/2084122580550922715"
+      "@Sta_Loveshinri/2084122580550922715",
+      "@mai_x0x0_21/2100501181584019561",
+      "@mai_x0x0_21/2098981733391905083",
+      "@mai_x0x0_21/2097629782620230110"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
@@ -381,7 +430,7 @@
     "related": [
       "優しさだけでは恋愛対象にならない"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "脈あり脈なしの誤読（返信の速さ・目線・質問への動揺）": {
     "type": "action",
@@ -389,18 +438,117 @@
       "@bagurase_tyan/2088551730657329438",
       "@rei0723_X/2090372785466130519",
       "@Todai_Renai/2099634522786517423",
-      "@Sta_Loveshinri/2074013283489604085"
+      "@Sta_Loveshinri/2074013283489604085",
+      "@mai_x0x0_21/2099651243782418829",
+      "@bagurase_tyan/2101144930542624880",
+      "@bagurase_tyan/2101145010867699749",
+      "@bagurase_tyan/2101145168544219314",
+      "@romantic_thai/2101551932032549023",
+      "@romantic_thai/2101551932200407101"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
       "Todai_Renai",
       "bagurase_tyan",
-      "rei0723_X"
+      "rei0723_X",
+      "mai_x0x0_21"
     ],
     "confidence": "C",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
+  },
+  "女性が惹かれるのは条件の総量ではなく主導権と動じない余裕": {
+    "type": "action",
+    "sources": [
+      "@Todai_Renai/2101295445204947002",
+      "@Todai_Renai/2101295446245175484",
+      "@Todai_Renai/2101967963507327124",
+      "@Todai_Renai/2101967965906485393",
+      "@Todai_Renai/2101615771051077796",
+      "@Todai_Renai/2101615773466935806",
+      "@Todai_Renai/2101268017825149073",
+      "@Todai_Renai/2101268020366643252",
+      "@bagurase_tyan/2101508717414056367",
+      "@bagurase_tyan/2101869727983587732",
+      "@bagurase_tyan/2101236118972960934",
+      "@bagurase_tyan/2101236986560283069",
+      "@bagurase_tyan/2101899575800025522",
+      "@romantic_thai/2101746087040340177",
+      "@romantic_thai/2101423590503862520",
+      "@romantic_thai/2101423602344317167",
+      "@romantic_thai/2101423614025515321",
+      "@romantic_thai/2101785978130346318",
+      "@romantic_thai/2101785990734160024",
+      "@Todai_Renai/2101278007642267684"
+    ],
+    "matched_accounts": [
+      "Todai_Renai",
+      "bagurase_tyan",
+      "romantic_thai"
+    ],
+    "confidence": "B",
+    "status": "verified",
+    "related": [
+      "「何でもいいよ」は決断放棄に見える",
+      "希少性は好意を強めやすい",
+      "断られた時は理由を問い詰めず軽く流す"
+    ],
+    "last_updated": "2026-09-22"
+  },
+  "煽情的な誘い文句・メロらせる返しフレーズ集(ホテル誘導系)": {
+    "type": "action",
+    "sources": [
+      "@bagurase_tyan/2101960334747828557",
+      "@bagurase_tyan/2101960601912156421",
+      "@bagurase_tyan/2101664925022351552",
+      "@bagurase_tyan/2101597938409701492",
+      "@bagurase_tyan/2101598906014642394",
+      "@bagurase_tyan/2101465533677994402"
+    ],
+    "matched_accounts": [
+      "bagurase_tyan"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "ホテルへ誘導する釣り文句集・「女の脳をハックする」等の操作的な言い回しテンプレート。除外基準(煽情的・操作的なテンプレ投稿)に該当。",
+    "related": [],
+    "last_updated": "2026-09-22"
+  },
+  "結婚したら苦労する男は家事を「手伝う」と言う(二人で分担、と言えるかが分岐点)": {
+    "type": "action",
+    "sources": [
+      "@mirei_urateku/2101227294476116020",
+      "@mirei_urateku/2101227294782304550",
+      "@mirei_urateku/2101246294442590331",
+      "@mirei_urateku/2101262281652978015"
+    ],
+    "matched_accounts": [
+      "mirei_urateku"
+    ],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単独発信元のみ。他アカウントでの言及が今のところ確認できず1-Cの複数発信元一致の基準を満たさないため保留。今後同テーマの投稿が他アカウントで見つかれば統合を検討。",
+    "related": [],
+    "last_updated": "2026-09-22"
+  },
+  "マチアプデートで元カレ話を遮って話題を変えると好意的に受け取られる": {
+    "type": "action",
+    "sources": [
+      "@Todai_Renai/2102046821203759383",
+      "@Todai_Renai/2102046822449524865",
+      "@Todai_Renai/2102046823711994138"
+    ],
+    "matched_accounts": [
+      "Todai_Renai"
+    ],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単独発信元のみ。既存の「感情への反応が事実への反応より効く(傾聴・共感を優先)」という原則と逆方向の示唆でもあり、他ソースでの裏付けが取れるまで保留。",
+    "related": [
+      "感情への反応が、事実への反応より圧倒的に効く"
+    ],
+    "last_updated": "2026-09-22"
   },
   "距離を取る/フェードアウトする時の心理": {
     "type": "action",
@@ -455,18 +603,20 @@
     "type": "action",
     "sources": [
       "@Sta_Loveshinri/2084122577799409958",
-      "@rei0723_X/2093261806521471400"
+      "@rei0723_X/2093261806521471400",
+      "@mirei_urateku/2100057101041336466"
     ],
     "matched_accounts": [
       "Sta_Loveshinri",
-      "rei0723_X"
+      "rei0723_X",
+      "mirei_urateku"
     ],
     "confidence": "C",
     "status": "verified",
     "related": [
       "優しさだけでは恋愛対象にならない"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-19"
   },
   "愛着スタイルの慎重な扱い": {
     "type": "action",
@@ -521,7 +671,8 @@
     "type": "action",
     "sources": [
       "@bagurase_tyan/2047511399535165791",
-      "@rei0723_X/2044267278922022922"
+      "@rei0723_X/2044267278922022922",
+      "@bagurase_tyan/2101869727983587732"
     ],
     "matched_accounts": [
       "bagurase_tyan",
@@ -534,7 +685,14 @@
   },
   "性的な誘い方・体位・前戯などの具体的テクニック集": {
     "type": "action",
-    "sources": [],
+    "sources": [
+      "@bagurase_tyan/2101236118972960934",
+      "@bagurase_tyan/2101236986560283069",
+      "@bagurase_tyan/2101508236306248073",
+      "@bagurase_tyan/2101507910631391380",
+      "@rei0723_X/2101606802375033343",
+      "@rei0723_X/2101606888190468139"
+    ],
     "matched_accounts": [
       "bagurase_tyan",
       "rei0723_X",
@@ -544,7 +702,7 @@
     "status": "hold",
     "hold_reason": "煽情的なテンプレート投稿が大半で、内容も断定的すぎる・個人差が大きい。知識ベースの対象読者層とも合わないため保留。",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-22"
   },
   "「女性を洗脳する」「意図した方向に誘導する」系の心理操作フレームワーク": {
     "type": "action",
@@ -810,7 +968,9 @@
     "related": [
       "指摘されたら守らず具体化して倍返しする"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-21"
   },
   "労い・気遣いで素の優しさに一瞬で切り替える": {
     "type": "conversation",
@@ -935,7 +1095,9 @@
       "ファーストラブ理論",
       "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-17"
   },
   "『いま、ここ』に集中し、行為そのものに価値を置く": {
     "type": "applied_knowledge",
@@ -962,7 +1124,9 @@
       "下向き矢印法で『本当の思い込み(スキーマ)』を見つける",
       "問題を具体的にし、一つずつ解決する"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-17"
   },
   "下向き矢印法で『本当の思い込み(スキーマ)』を見つける": {
     "type": "applied_knowledge",
@@ -1017,7 +1181,9 @@
       "離別ストラテジーに気づく",
       "男性脳・女性脳を見分ける5つの視点"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-17"
   },
   "NタイプとVタイプの悪循環(ジェットコースター効果)に気づく": {
     "type": "applied_knowledge",
@@ -1125,7 +1291,9 @@
     "related": [
       "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-17"
   },
   "男性脳・女性脳を見分ける5つの視点": {
     "type": "applied_knowledge",
@@ -1153,6 +1321,21 @@
       "男性脳・女性脳を見分ける5つの視点"
     ],
     "last_updated": "2026-09-16"
+  },
+  "デニムポスターDIY(ichiroomvlog、インテリア系TikTok新規アカウント)": {
+    "type": "action",
+    "genre": "06_Interior",
+    "sources": [
+      "transcripts/7544704847531085073.md(@ichiroomvlog)"
+    ],
+    "matched_accounts": [
+      "ichiroomvlog"
+    ],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "新規登録アカウント(インテリアDIY系)の単独投稿1本のみ。1-Cの複数発信元一致の基準を満たさないため保留。今後同アカウントや他インテリア系ソースで投稿が増えれば02_Sources/03_TikTok/共通点メモ.mdへの統合を検討。",
+    "related": [],
+    "last_updated": "2026-09-22"
   },
   "テレアポで切られてもすぐ電話を切らない": {
     "type": "action",
@@ -1396,22 +1579,28 @@
     "related": [
       "フット・イン・ザ・ドア"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "フット・イン・ザ・ドア": {
     "type": "action",
     "genre": "04_Sales",
-    "file": "03_Knowledge/04_Sales/行動.md",
+    "file": "03_Knowledge/04_Sales/乾式.md",
     "sources": [
-      "transcripts/7499807280263712018.md"
+      "transcripts/7499807280263712018.md",
+      "transcripts/7686784825864310036.md"
     ],
     "matched_accounts": [],
     "confidence": "A",
     "status": "verified",
     "related": [
-      "ドア・イン・ザ・フェイス"
+      "ドア・イン・ザ・フェイス",
+      "二者択一・ダブルバインド"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-22",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "二者択一・ダブルバインド": {
     "type": "action",
@@ -1438,7 +1627,9 @@
     "confidence": "A",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "ウィンザー効果": {
     "type": "action",
@@ -1450,12 +1641,15 @@
       "transcripts/7663760567949085973.md"
     ],
     "matched_accounts": [],
-    "confidence": "A",
+    "confidence": "C",
     "status": "verified",
     "related": [
       "比較を作る"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19",
+    "note": "裏付け調査で「ウィンザー効果」という名称自体の学術的原典は確認できず、confidenceをA→Cに引き下げ(現象自体(第三者話法が効く)は他の調査で支持されている)。乾式.md本文の(A→C、要注意)表記に対応。"
   },
   "バンドワゴン効果": {
     "type": "action",
@@ -1469,7 +1663,9 @@
     "confidence": "A",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "カクテルパーティー効果": {
     "type": "action",
@@ -1483,7 +1679,9 @@
     "confidence": "A",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "一貫性の原理の使い方": {
     "type": "action",
@@ -1500,7 +1698,9 @@
     "related": [
       "どこが良かったか、なぜ良かったかを聞く"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-21"
   },
   "フレーミング効果": {
     "type": "action",
@@ -1513,7 +1713,9 @@
     "confidence": "A",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "メラビアンの法則の正しい理解": {
     "type": "action",
@@ -1526,7 +1728,9 @@
     "confidence": "A",
     "status": "verified",
     "related": [],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "ザイアンスの熟知の法則で本音を引き出す": {
     "type": "action",
@@ -1541,7 +1745,9 @@
     "related": [
       "第三者話法+実績+親近性"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-19"
   },
   "権威の心理学": {
     "type": "action",
@@ -2192,7 +2398,10 @@
       "mai_x0x0_21/2097521374579605676",
       "mai_x0x0_21/2097521386596307398",
       "mai_x0x0_21/2095641187416002634",
-      "mai_x0x0_21/2095641199394861494"
+      "mai_x0x0_21/2095641199394861494",
+      "mai_x0x0_21/2100847861458161874",
+      "mai_x0x0_21/2100782877218935153",
+      "mai_x0x0_21/2100782865307013627"
     ],
     "matched_sources": [],
     "confidence": "C",
@@ -2200,7 +2409,7 @@
     "hold_reason": "同一発信元(mai_x0x0_21)内での反復のみで他アカウントとの横断確認ができていない。次回以降に他ソースでの一致を確認してから採否判断する。",
     "related": [],
     "sub_agent_used": false,
-    "last_updated": "2026-09-18"
+    "last_updated": "2026-09-19"
   },
   "身の丈に理想の条件を合わせる(自分の市場価値の客観視)": {
     "kind": "action",
@@ -2276,7 +2485,8 @@
       "bagurase_tyan/2100059255260999730",
       "bagurase_tyan/2100058180890075339",
       "bagurase_tyan/2099785625662816609",
-      "bagurase_tyan/2099785537746006136"
+      "bagurase_tyan/2099785537746006136",
+      "bagurase_tyan/2100873139895017661"
     ],
     "matched_sources": [],
     "confidence": "D",
@@ -2284,7 +2494,7 @@
     "hold_reason": "除外基準の「釣り文句集」に該当するセリフ列挙テンプレ投稿のため対象外。根底の「自信を見せる」原則自体は既存Knowledgeで採用済み。",
     "related": [],
     "sub_agent_used": false,
-    "last_updated": "2026-09-18"
+    "last_updated": "2026-09-19"
   },
   "eigyou.inui 書籍・オーディオブック宣伝動画(除外)": {
     "kind": "action",
@@ -2313,5 +2523,131 @@
     "related": [],
     "sub_agent_used": false,
     "last_updated": "2026-09-18"
+  },
+  "褒める順番(内面→恋愛トーク→理想のタイプ)で警戒心を解く": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["bagurase_tyan/2100873899546448383"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元のみ。各ステップにメカニズム説明はあるが、他アカウントとの横断確認ができるまで保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "初対面〜初デートでタメ口を使うと友達感覚の距離感になり縮まりやすい": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "file": "02_Sources/02_X/共通点メモ.md",
+    "sources": ["romantic_thai/2100781906015265018", "romantic_thai/2100781893985907117"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "verified",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19",
+    "note": "既存の共通点メモ.md 2章の表「話し方(初デート)」行に対応する内容の具体例。表自体は以前から存在していたがmetaに未記録だったため今回追加。"
+  },
+  "軽くイジる(じゃれ合い)が男女の距離を縮める": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["rei0723_X/2100875715239448709", "rei0723_X/2100875712542707842"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元のみ。他アカウントとの横断確認ができるまで保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "女が惹かれる男の条件TOP10ランキング(除外・性的文脈)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["rei0723_X/2100782110290112966", "rei0723_X/2100782110000713993"],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "性的な文脈(「目が勃起してない」「性欲をコントロール」等)を含むランキング形式のテンプレ投稿で、メカニズム説明が薄く除外基準の煽情的投稿に該当するため対象外。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "自分も誘いの選択肢に入れて誘う(自己を候補に含める誘い方)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["Todai_Renai/2100902868093997552"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元のみ。他アカウントとの横断確認ができるまで保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "根拠のない女性ステレオタイプの断定列挙(除外)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["Todai_Renai/2100870057039667503", "Todai_Renai/2100870054862856550"],
+    "matched_sources": [],
+    "confidence": "D",
+    "status": "hold",
+    "hold_reason": "「清楚な女ほど遊んでる」等、根拠のない断定的な女性の類型化。共通点メモ.md 5章の「過剰な一般化への注意」と矛盾するため対象外。",
+    "related": ["女性心理の解釈(過剰な一般化への注意つき)"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "結婚生活で苦労する男の特徴(新テーマ、単一発信元)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["mirei_urateku/2100864906556023293"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元。かつ既存の共通点メモ.md は「出会い〜交際」までを対象範囲としており、結婚生活は範囲外の新テーマのため、横断確認に加えて範囲追加自体の判断も保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "結婚願望はあるが行動が受け身な男の特徴(新テーマ、単一発信元)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["mirei_urateku/2100140129830551879", "mirei_urateku/2100140129532649888"],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "単一発信元。既存の共通点メモ.mdの対象範囲(出会い〜交際)外の新テーマのため保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "気づかない家事分担への不満(結婚後の当事者意識格差)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": ["mai_x0x0_21/2099990956611387682", "mirei_urateku/2100864906858016899"],
+    "matched_sources": ["mai_x0x0_21", "mirei_urateku"],
+    "confidence": "B",
+    "status": "tentative",
+    "hold_reason": "mai_x0x0_21とmirei_urateku、異なる2アカウントで本質が一致(家事への気づき・当事者意識の差)。ただし結婚生活は既存の共通点メモ.mdの対象範囲(出会い〜交際)外の新テーマのため、本文への追記はせず件数が増えるまでtentativeで様子見。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
+  },
+  "はっきりしない態度・曖昧さがかえって相手を惹きつける(未完了効果、単一発信元)": {
+    "kind": "action",
+    "genre": "03_Romance",
+    "sources": [
+      "mai_x0x0_21/2100074270881874416",
+      "mai_x0x0_21/2100068374881706123",
+      "mai_x0x0_21/2100064827070955686",
+      "mai_x0x0_21/2095296205698039820"
+    ],
+    "matched_sources": [],
+    "confidence": "C",
+    "status": "hold",
+    "hold_reason": "同一発信元(mai_x0x0_21)内での反復のみ。ツァイガルニク効果的な心理メカニズムとは整合的だが、他アカウントとの横断確認ができるまで保留。",
+    "related": [],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-19"
   }
 }

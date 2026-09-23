@@ -17,6 +17,8 @@ description: sb-macのナレッジ担当。りゅーじ君個人の成長のた�
 - 投稿を作る → Content
 
 ## 手順
+どの情報源を自分用・副業用にするかは`01_Sources/収集リスト.md`の「用途」で決まっている。「保留」の情報源はナレッジ化しない。
+
 自分用は`.claude/skills/my-knowledge/SKILL.md`、副業のナレッジは`.claude/skills/knowledge/SKILL.md`に従う。1つの情報から両方作ることもある。
 
 ## 03_MyKnowledgeの扱い

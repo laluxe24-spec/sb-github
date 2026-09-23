@@ -28,12 +28,14 @@ description: 副業を成功させるための知見を02_Knowledgeに貯める�
 
 `02_Knowledge/_管理/progress.json`の`processed_files`に無いものだけを対象にする。新着が無ければ何もしない。対象を指定された時(「〇〇だけ」)は、それだけに絞ってよい。
 
-対象ソース:
-- `01_Sources/02_X/data/@<各アカウント>/posts.json`(投稿。`id`で処理済み判定)
-- `01_Sources/02_X/data/@kw1ew/スクショ/*.jpg`(会話スクショ、画像のまま読む。OCR不要)
-- `01_Sources/03_TikTok/data/*/transcripts/*.md`(TikTokの文字起こし)
-- `01_Sources/04_YouTube/data/*/transcripts/*.md`(YouTubeの文字起こし)
-- `01_Sources/01_Kindle/data/*/本文.md`(本、`kindle/<本のタイトル>`の形でprocessed_files照合)
+**対象は`01_Sources/収集リスト.md`で用途が「副業用」になっている情報源だけ。**「保留」や別の用途の情報源は、新着があっても触らない。
+
+データの場所:
+- X投稿: `01_Sources/02_X/data/@<アカウント>/posts.json`(`id`で処理済み判定)
+- kw1ewの会話: `01_Sources/02_X/data/@kw1ew/スクショ/`(画像のまま読む。OCR不要)
+- TikTok: `01_Sources/03_TikTok/data/@<アカウント>/transcripts/*.md`
+- YouTube: `01_Sources/04_YouTube/data/@<チャンネル>/transcripts/*.md`(単発。頼まれた時だけ)
+- Kindle: `01_Sources/01_Kindle/data/<本のタイトル>/本文.md`(`kindle/<本のタイトル>`の形でprocessed_files照合)
 
 **除外基準(問答無用で対象外)**: 煽情的・操作的なテンプレ投稿(釣り文句集、「女性を洗脳する」系の商材宣伝、性的体験の実況)、怪しい商材の宣伝、MBTI・血液型などの根拠のない分類。信頼している発信者(乾さん・はやとさん)の内容でも、この基準に該当するもの(自著宣伝・講師紹介など技術的内容がないものを含む)は除外する。
 

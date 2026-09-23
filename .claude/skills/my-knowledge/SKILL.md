@@ -11,12 +11,14 @@ description: 自分用ナレッジを作る。集めた生データ(X投稿、kw
 
 `03_MyKnowledge/03_使える知識/_管理/knowledge_progress.json`の`processed_files`に無いものだけを対象にする。新着が無ければ何もせず終了してよい。対象を指定された時(「〇〇だけ」)は、それだけに絞ってよい。
 
-対象ソース:
-- `01_Sources/02_X/data/@<各アカウント>/posts.json`(投稿。`id`で処理済み判定)
-- `01_Sources/02_X/data/@kw1ew/スクショ/*.jpg`(会話スクショ、画像のまま読む。OCR不要)
-- `01_Sources/03_TikTok/data/*/transcripts/*.md`(TikTokの文字起こし)
-- `01_Sources/04_YouTube/data/*/transcripts/*.md`(YouTubeの文字起こし)
-- `01_Sources/01_Kindle/data/*/本文.md`(本、`kindle/<本のタイトル>`の形でprocessed_files照合)
+**対象は`01_Sources/収集リスト.md`で用途が「自分用」になっている情報源だけ。**「保留」や別の用途の情報源は、新着があっても触らない。
+
+データの場所:
+- X投稿: `01_Sources/02_X/data/@<アカウント>/posts.json`(`id`で処理済み判定)
+- kw1ewの会話: `01_Sources/02_X/data/@kw1ew/スクショ/`(画像のまま読む。OCR不要)
+- TikTok: `01_Sources/03_TikTok/data/@<アカウント>/transcripts/*.md`
+- YouTube: `01_Sources/04_YouTube/data/@<チャンネル>/transcripts/*.md`(単発。頼まれた時だけ)
+- Kindle: `01_Sources/01_Kindle/data/<本のタイトル>/本文.md`(`kindle/<本のタイトル>`の形でprocessed_files照合)
 
 ## 除外と、使うかどうかの判断
 

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""02_Sources/02_X/data/配下の全アカウントのposts.jsonを読み込み、
+"""01_Sources/02_X/data/配下の全アカウントのposts.jsonを読み込み、
 構成タイプ(対比型/短文型/箇条書き型/会話例型/番号リスト型/問いかけ型/その他)で
 機械分類し、頻度集計と層化サンプリングを行う(archive-pattern-analysisスキルのSTEP1・STEP2)。
 
@@ -15,7 +15,7 @@ from pathlib import Path
 from collections import Counter, defaultdict
 
 ROOT = Path(__file__).resolve().parents[4]  # sb-mac/
-X_DATA_DIR = ROOT / "02_Sources" / "02_X" / "data"
+X_DATA_DIR = ROOT / "01_Sources" / "02_X" / "data"
 
 
 def load_all_posts() -> list[dict]:

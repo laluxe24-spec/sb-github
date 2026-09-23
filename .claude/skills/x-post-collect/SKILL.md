@@ -1,6 +1,6 @@
 ---
 name: x-post-collect
-description: Xの投稿型アカウント(本文を全部集めるタイプ)の投稿を`02_Sources/02_X/data/@<アカウント名>/posts.json`に集める。「Xのアカウント@〇〇を追加して」「Xの投稿を集めて」「新着を取って」の時に使う。1枚ずつ選ぶスクショ型(@kw1ew)はx-screenshot-collectを使う。
+description: Xの投稿型アカウント(本文を全部集めるタイプ)の投稿を`01_Sources/02_X/data/@<アカウント名>/posts.json`に集める。「Xのアカウント@〇〇を追加して」「Xの投稿を集めて」「新着を取って」の時に使う。1枚ずつ選ぶスクショ型(@kw1ew)はx-screenshot-collectを使う。
 ---
 
 # X投稿収集(投稿型)
@@ -9,7 +9,7 @@ description: Xの投稿型アカウント(本文を全部集めるタイプ)の�
 
 ## フォルダ
 ```
-02_Sources/02_X/
+01_Sources/02_X/
 ├── scripts/                 収集プログラム(スクショ型と共通)
 └── data/@<アカウント名>/posts.json   投稿データ(id・url・text・created_at)
 ```
@@ -18,7 +18,7 @@ description: Xの投稿型アカウント(本文を全部集めるタイプ)の�
 
 ### 新しいアカウントを追加する
 ```bash
-cd 02_Sources/02_X/scripts
+cd 01_Sources/02_X/scripts
 node collect_posts.js <アカウント名>
 ```
 - アカウント名は`@`なしで渡す(例: `mai_x0x0_21`)
@@ -40,4 +40,4 @@ node auto_check.js
 ## 注意点
 - ログインが切れていたら`node login.js`を実行し、りゅーじ君本人がその場でXにログインする(ブラウザが開き、ログインを検知すると`auth.json`に保存して自動で閉じる)
 - 初回や`node_modules`が消えている時は、先に`npm install && npx playwright install chromium`
-- 分析結果はこのフォルダに置かない(ナレッジは03_Knowledge、分析はResearchの報告)
+- 分析結果はこのフォルダに置かない(ナレッジは02_Knowledge、分析はResearchの報告)

@@ -5,15 +5,15 @@ description: Xのスクショ型アカウント(現在は@kw1ewのみ)の新着�
 
 # Xスクショ収集(厳選型)
 
-X上の会話スクリーンショットを取得し、「口説き・ラポール構築のテクニック例」として使えるものだけを1枚ずつ判断して`02_Sources/02_X/data/@kw1ew/スクショ/`に保存する。**厳選が核心**。確認を取らずに最後まで進めてよい。
+X上の会話スクリーンショットを取得し、「口説き・ラポール構築のテクニック例」として使えるものだけを1枚ずつ判断して`01_Sources/02_X/data/@kw1ew/スクショ/`に保存する。**厳選が核心**。確認を取らずに最後まで進めてよい。
 
 ## 手順
 
-1. **準備**(初回、または`node_modules`が消えている時だけ): `02_Sources/02_X/scripts/`で`npm install && npx playwright install chromium`
+1. **準備**(初回、または`node_modules`が消えている時だけ): `01_Sources/02_X/scripts/`で`npm install && npx playwright install chromium`
 2. **ログイン確認**: ログインが切れていたら`node login.js`(りゅーじ君本人がその場でログイン)
 3. **新着取得**:
    ```bash
-   cd 02_Sources/02_X/scripts
+   cd 01_Sources/02_X/scripts
    node collect_media.js 30
    ```
    - 引数は**件数だけ**。アカウント名は渡さない(`kw1ew`はプログラム内で固定。アカウント名を渡すと件数がNaNになり0件で終わる)

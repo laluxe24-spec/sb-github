@@ -1,6 +1,6 @@
 ---
 name: youtube-transcribe
-description: YouTube動画のしゃべっている内容を文字起こしして`02_Sources/04_YouTube/data/@<チャンネル名>/`に保存する。「このYouTubeを文字起こしして」「このYouTubeをナレッジに入れたい」の時に使う。1本でも、URLをまとめた複数本でもOK。
+description: YouTube動画のしゃべっている内容を文字起こしして`01_Sources/04_YouTube/data/@<チャンネル名>/`に保存する。「このYouTubeを文字起こしして」「このYouTubeをナレッジに入れたい」の時に使う。1本でも、URLをまとめた複数本でもOK。
 ---
 
 # YouTube文字起こし
@@ -12,7 +12,7 @@ description: YouTube動画のしゃべっている内容を文字起こしして
 1. **URLを受け取る**: `https://www.youtube.com/watch?v=...` または `https://youtu.be/...`
 2. **実行する**:
    ```bash
-   cd 02_Sources/04_YouTube
+   cd 01_Sources/04_YouTube
    python3 scripts/transcribe.py "https://youtu.be/xxxxxxxxxxx"
    ```
    まとめて処理する時は、URLを1行1つ書いたテキストファイルを作って:

@@ -1,6 +1,6 @@
 ---
 name: kindle-transcribe
-description: Kindle本をスクリーンショット撮影→OCRで文字起こしし、`02_Sources/01_Kindle/data/<本のタイトル>/本文.md`を作る。「この本を読み込んで」「この本をスクショして」「〇〇(本のタイトル)をナレッジに入れたい」の時に使う。できた本文のナレッジ化はknowledge-buildスキルで行う。
+description: Kindle本をスクリーンショット撮影→OCRで文字起こしし、`01_Sources/01_Kindle/data/<本のタイトル>/本文.md`を作る。「この本を読み込んで」「この本をスクショして」「〇〇(本のタイトル)をナレッジに入れたい」の時に使う。できた本文のナレッジ化はknowledge-buildスキルで行う。
 ---
 
 # Kindle文字起こし
@@ -11,7 +11,7 @@ OCRは「本の考え方が分かればいい」方針なので、一字一句�
 
 ## フォルダ
 ```
-02_Sources/01_Kindle/
+01_Sources/01_Kindle/
 ├── scripts/
 │   ├── kindle_screenshot.py       スクショ撮影(全ての本で共通)
 │   ├── ocr_book.py                縦書きの本用OCR(tesseract jpn_vert)
@@ -49,13 +49,13 @@ OCRは「本の考え方が分かればいい」方針なので、一字一句�
 Kindleアプリで対象の本を開いた状態で実行する。
 
 ```
-cd 02_Sources/01_Kindle/scripts
+cd 01_Sources/01_Kindle/scripts
 ./venv/bin/python3 kindle_screenshot.py <本のタイトル>
 ```
 
 - 第1引数(本のタイトル): 省略すると `untitled` フォルダになるので、複数の本を扱うときは必ず指定する。
 - 第2引数(ページ数上限、省略可): 通常は指定不要。デフォルトで5000ページ分の上限があるが、これは「本当に何かおかしくなった時の安全装置」に過ぎず、実際にはページが変化しなくなった時点(=最終ページ)で自動停止する。5000ページを超えるような本は現実的にまず無いので、通常は本のタイトルだけ渡せばよい。
-- 出力先は自動的に `02_Sources/01_Kindle/data/<本のタイトル>/screenshots/` になり、同じフォルダに `capture.log`(実行ログ)も自動生成される。
+- 出力先は自動的に `01_Sources/01_Kindle/data/<本のタイトル>/screenshots/` になり、同じフォルダに `capture.log`(実行ログ)も自動生成される。
 
 **最終ページ自動停止**: ページ送り後に2回連続で画面が変化しない場合、最終ページに到達したとみなしてループを打ち切り、重複した最後の1枚も自動削除する。ページ数上限を指定する必要がないため、「本のページ数を事前に知らないと何回指定すればいいか分からない」「上限を低く指定すると最後まで撮り切れない」「上限を大きくしすぎると最終ページで無駄な重複が大量発生する」といった問題がすべて解消されている。万一、上限ページ数に到達しても最終ページを検出できなかった場合は、`capture.log`に警告が出るので、その場合だけページ数上限を増やして再実行する。
 
@@ -109,7 +109,7 @@ brew install tesseract tesseract-lang
 
 インストール後、以下を実行する:
 ```
-cd 02_Sources/01_Kindle/scripts
+cd 01_Sources/01_Kindle/scripts
 python3 ocr_book.py <本のタイトル>
 ```
 `data/<本のタイトル>/screenshots/` の各画像を`tesseract -l jpn_vert --psm 5`でOCRし、UI由来のノイズ行(「Kindle」「◯%」「読書の速さを測定中」など)を除去した上で `data/<本のタイトル>/本文.md` にページ区切り付きでまとめる。
@@ -121,7 +121,7 @@ python3 ocr_book.py <本のタイトル>
 横書きの本(ワークブック・実用書など)は、tesseractより高精度なmacOS標準のVision frameworkが使える。
 
 ```
-cd 02_Sources/01_Kindle/scripts
+cd 01_Sources/01_Kindle/scripts
 ./venv/bin/python3 ocr_book_horizontal.py <本のタイトル>
 ```
 同じく `data/<本のタイトル>/本文.md` に出力する。Visionは横書きテキストなら非常に高精度。
@@ -130,7 +130,7 @@ cd 02_Sources/01_Kindle/scripts
 
 ## 手順5: ナレッジにする
 
-`本文.md`ができたら、knowledge-buildスキルで`03_Knowledge/<ジャンル>/<本のタイトル>.md`にナレッジ化する。分量が多いので、Agentツールに任せて会話を汚さないほうがいい。
+`本文.md`ができたら、knowledge-buildスキルで`02_Knowledge/<ジャンル>/<本のタイトル>.md`にナレッジ化する。分量が多いので、Agentツールに任せて会話を汚さないほうがいい。
 
 ## 手順6: スクショの削除
 

@@ -1,8 +1,8 @@
 .obsidian/plugins/mcp-tools-istefox/
 .obsidian/workspace.json
-02_Sources/02_X/scripts/auth.json
-02_Sources/02_X/scripts/node_modules/
-02_Sources/02_X/scripts/package-lock.json
+01_Sources/02_X/scripts/auth.json
+01_Sources/02_X/scripts/node_modules/
+01_Sources/02_X/scripts/package-lock.json
 .DS_Store
 __pycache__/
 *.pyc
@@ -10,5 +10,5 @@ __pycache__/
 !.claude/skills/
 !.claude/agents/
 .claude/skills/*-workspace/
-02_Sources/01_Kindle/scripts/venv/
+01_Sources/01_Kindle/scripts/venv/
 .claude/skills/research/scripts/_sample_output.json

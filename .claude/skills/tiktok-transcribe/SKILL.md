@@ -1,6 +1,6 @@
 ---
 name: tiktok-transcribe
-description: TikTok動画のしゃべっている内容を文字起こしして`02_Sources/03_TikTok/data/@<アカウント名>/`に保存する。「このTikTokを文字起こしして」「このTikTokをナレッジに入れたい」の時に使う。1本でも、URLをまとめた複数本でもOK。
+description: TikTok動画のしゃべっている内容を文字起こしして`01_Sources/03_TikTok/data/@<アカウント名>/`に保存する。「このTikTokを文字起こしして」「このTikTokをナレッジに入れたい」の時に使う。1本でも、URLをまとめた複数本でもOK。
 ---
 
 # TikTok文字起こし
@@ -12,7 +12,7 @@ description: TikTok動画のしゃべっている内容を文字起こしして`
 1. **URLを受け取る**: 個別の動画URL(`https://www.tiktok.com/@アカウント名/video/数字`)。プロフィールURLしか無い時は、対象の動画を1本ずつ確認してから進める
 2. **実行する**:
    ```bash
-   cd 02_Sources/03_TikTok
+   cd 01_Sources/03_TikTok
    python3 scripts/transcribe.py "https://www.tiktok.com/@アカウント名/video/数字"
    ```
    まとめて処理する時は、URLを1行1つ書いたテキストファイルを作って:

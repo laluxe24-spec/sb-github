@@ -1,4 +1,60 @@
 {
+  "鉄板オープナーは使い回し、相手の返しに合わせて2手目を分岐させる": {
+    "type": "conversation",
+    "source_group": "1-A(はやとさん)",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/はやと式.md",
+    "sources": ["kw1ew/145.png", "kw1ew/146.jpg", "kw1ew/147.jpg", "kw1ew/148.jpg", "kw1ew/113.jpg", "kw1ew/114.jpg", "kw1ew/157.jpg", "kw1ew/158.jpg", "kw1ew/159.jpg", "kw1ew/111.jpg", "kw1ew/112.jpg", "kw1ew/121.jpg", "kw1ew/122.jpg", "kw1ew/123.jpg", "kw1ew/102.jpg", "kw1ew/160.jpg", "kw1ew/161.jpg"],
+    "confidence": "high",
+    "status": "verified",
+    "related": ["誇張した「〜すぎて〜になった」オープナー", "相手の「No」や塩対応を、好意の証拠に読み替える"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-23",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
+  },
+  "相手の「No」や塩対応を、好意の証拠に読み替える": {
+    "type": "conversation",
+    "source_group": "1-A(はやとさん)",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/はやと式.md",
+    "sources": ["kw1ew/165.jpg", "kw1ew/166.jpg", "kw1ew/162.jpg", "kw1ew/163.jpg", "kw1ew/164.jpg", "kw1ew/099.jpg", "kw1ew/100.jpg", "kw1ew/101.jpg", "kw1ew/124.jpg", "kw1ew/125.jpg", "kw1ew/126.jpg", "kw1ew/108.jpg", "kw1ew/109.jpg", "kw1ew/110.jpg"],
+    "confidence": "high",
+    "status": "verified",
+    "related": ["指摘されたら守らず具体化して倍返しする", "LINEを「今の話の続き」として頼む(設定の中のクロージング)"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-23",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
+  },
+  "LINEを「今の話の続き」として頼む(設定の中のクロージング)": {
+    "type": "conversation",
+    "source_group": "1-A(はやとさん)",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/はやと式.md",
+    "sources": ["kw1ew/102.jpg", "kw1ew/103.jpg", "kw1ew/104.jpg", "kw1ew/105.jpg", "kw1ew/106.jpg", "kw1ew/107.jpg", "kw1ew/108.jpg", "kw1ew/109.jpg", "kw1ew/110.jpg", "kw1ew/153.jpg", "kw1ew/142.jpg", "kw1ew/143.jpg", "kw1ew/144.jpg", "kw1ew/124.jpg", "kw1ew/125.jpg", "kw1ew/126.jpg", "kw1ew/115.jpg", "kw1ew/116.jpg", "kw1ew/117.jpg", "kw1ew/121.jpg", "kw1ew/122.jpg", "kw1ew/123.jpg", "kw1ew/162.jpg", "kw1ew/163.jpg", "kw1ew/164.jpg", "kw1ew/165.jpg", "kw1ew/166.jpg"],
+    "confidence": "high",
+    "status": "verified",
+    "related": ["「(名前)らいん聞いたら怒る?」の定型クロージング", "LINEを断られかけたら、引いて見せるかボケで流す"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-23",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
+  },
+  "LINEを断られかけたら、引いて見せるかボケで流す": {
+    "type": "conversation",
+    "source_group": "1-A(はやとさん)",
+    "genre": "03_Romance",
+    "file": "03_Knowledge/03_Romance/はやと式.md",
+    "sources": ["kw1ew/156.jpg", "kw1ew/130.jpg", "kw1ew/131.jpg", "kw1ew/132.jpg", "kw1ew/124.jpg", "kw1ew/125.jpg", "kw1ew/126.jpg"],
+    "confidence": "medium",
+    "status": "verified",
+    "related": ["「(名前)らいん聞いたら怒る?」の定型クロージング", "LINEを「今の話の続き」として頼む(設定の中のクロージング)"],
+    "sub_agent_used": false,
+    "last_updated": "2026-09-23",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
+  },
   "「何でもいいよ」「どこでもいいよ」は優しさではなく決断放棄に見える": {
     "type": "action",
     "sources": [
@@ -809,11 +865,26 @@
       "誇張オープナー後の自虐オチ",
       "数字・疑似ロジックを誇張して畳みかける"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
   },
   "相手の一言を即興で物語に仕立てて膨らませる": {
     "type": "conversation",
     "sources": [
+      "kw1ew/111.jpg",
+      "kw1ew/112.jpg",
+      "kw1ew/118.jpg",
+      "kw1ew/119.jpg",
+      "kw1ew/120.jpg",
+      "kw1ew/121.jpg",
+      "kw1ew/122.jpg",
+      "kw1ew/123.jpg",
+      "kw1ew/139.jpg",
+      "kw1ew/140.jpg",
+      "kw1ew/141.jpg",
+      "kw1ew/149.jpg",
+      "kw1ew/150.jpg",
       "kw1ew/019.jpg",
       "kw1ew/020.jpg",
       "kw1ew/021.jpg",
@@ -836,11 +907,19 @@
       "一緒にボケを育てる共同即興",
       "誇張した「〜すぎて〜になった」オープナー"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
   },
   "名前を聞く時の呼び方脅し": {
     "type": "conversation",
     "sources": [
+      "kw1ew/105.jpg",
+      "kw1ew/127.jpg",
+      "kw1ew/128.jpg",
+      "kw1ew/142.jpg",
+      "kw1ew/162.jpg",
+      "kw1ew/163.jpg",
       "kw1ew/002.jpg",
       "kw1ew/013.jpg",
       "kw1ew/014.jpg",
@@ -861,7 +940,9 @@
       "あだ名・敬称ロールプレイを最後まで貫く",
       "LINE交換の定型クロージング"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
   },
   "あだ名・敬称ロールプレイを最後まで貫く": {
     "type": "conversation",
@@ -886,7 +967,9 @@
     "related": [
       "名前を聞く時の呼び方脅し"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
   },
   "指摘されたら守らず具体化して倍返しする": {
     "type": "conversation",
@@ -904,7 +987,9 @@
       "自分を下げるオチで褒め言葉を安全に受け取る",
       "本当の不満・疑念には正面から向き合う"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
   },
   "数字・疑似ロジックを誇張して畳みかける": {
     "type": "conversation",
@@ -920,7 +1005,9 @@
     "related": [
       "誇張した「〜すぎて〜になった」オープナー"
     ],
-    "last_updated": "2026-09-16"
+    "last_updated": "2026-09-16",
+    "evidence_checked": true,
+    "evidence_checked_at": "2026-09-23"
   },
   "きわどい発言は誤字・TPO理解でクッションしてから気の利いた一言に着地": {
     "type": "conversation",
@@ -939,6 +1026,14 @@
   "相手が出した情報をコラボで広げる": {
     "type": "conversation",
     "sources": [
+      "kw1ew/127.jpg",
+      "kw1ew/128.jpg",
+      "kw1ew/129.jpg",
+      "kw1ew/142.jpg",
+      "kw1ew/143.jpg",
+      "kw1ew/144.jpg",
+      "kw1ew/151.jpg",
+      "kw1ew/152.jpg",
       "kw1ew/034.jpg",
       "kw1ew/035.jpg",
       "kw1ew/036.jpg",
@@ -959,6 +1054,9 @@
   "自分を下げるオチで褒め言葉を安全に受け取る": {
     "type": "conversation",
     "sources": [
+      "kw1ew/136.jpg",
+      "kw1ew/137.jpg",
+      "kw1ew/138.jpg",
       "kw1ew/010.jpg",
       "kw1ew/041.jpg",
       "kw1ew/042.jpg"

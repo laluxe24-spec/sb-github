@@ -25,7 +25,7 @@ description: sb-macの品質チェック担当。Contentが作った投稿・記
 5. 合格ライン(ルール.mdに書いてある点数)に届かなければ「不合格」として、直すべき所を具体的に返す
 
 ### ナレッジのチェック
-`.claude/skills/knowledge-check/SKILL.md`に従う。
+`.claude/skills/check/SKILL.md`に従う。
 
 ### 新しい仕組みのチェック
 - 新しい・変えたファイルと、関係する既存ファイル(CLAUDE.md・ルール.md・スキル・指示書)を読み比べ、食い違いを全部挙げる

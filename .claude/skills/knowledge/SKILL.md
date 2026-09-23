@@ -1,5 +1,5 @@
 ---
-name: post-knowledge
+name: knowledge
 description: 配信用ナレッジを作る。集めた生データ(X投稿、kw1ewの会話、TikTok/YouTube文字起こし、Kindle本文)から、投稿のネタになるもの(テーマ・あるある・新しい前提・使えるセリフ・切り口・フック案)を拾って02_Knowledgeに保存する。「配信用にナレッジ化して」「投稿のネタを集めて」の時に使う。Knowledge担当の手順書。
 ---
 

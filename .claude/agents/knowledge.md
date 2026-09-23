@@ -17,7 +17,7 @@ description: sb-macのナレッジ担当。集めた生データやResearchの�
 - 投稿を作る → Content
 
 ## 手順
-自分用は`.claude/skills/my-knowledge/SKILL.md`、配信用は`.claude/skills/post-knowledge/SKILL.md`に従う。1つの情報から両方作ることもある。
+自分用は`.claude/skills/my-knowledge/SKILL.md`、配信用は`.claude/skills/knowledge/SKILL.md`に従う。1つの情報から両方作ることもある。
 
 ## 03_MyKnowledgeの扱い
 - `02_自分の考え/`には、りゅーじ君本人の考え・経験・「なぜこう直したか」だけを入れる。りゅーじ君が言っていないことを想像で書き足さない

@@ -3,7 +3,7 @@ export PATH="/Users/ryuji/.npm-global/bin:/opt/homebrew/bin:/usr/local/bin:/usr/
 cd /Users/ryuji/sb-mac
 LOG_DIR=/Users/ryuji/sb-mac-logs
 mkdir -p "$LOG_DIR"
-PROMPT="あなたは sb-mac プロジェクトの「秘書エージェント」です。これは無人実行(knowledge-review-daily)です。knowledge-checkスキルを使って、今朝ナレッジにした内容をチェックしてください。"
+PROMPT="あなたは sb-mac プロジェクトの「秘書エージェント」です。これは無人実行(knowledge-review-daily)です。checkスキルを使って、今朝ナレッジにした内容をチェックしてください。"
 echo "=== $(date '+%Y-%m-%d %H:%M:%S') 開始 ===" >> "$LOG_DIR/knowledge-review.log"
 claude -p "$PROMPT" \
   --permission-mode acceptEdits \

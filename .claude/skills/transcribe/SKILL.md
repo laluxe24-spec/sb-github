@@ -20,7 +20,7 @@ description: 文字起こしの手順書。TikTok・YouTubeの動画のしゃべ
 - TikTokのアカウントやKindleの本を新しく足した時は、`01_Sources/収集リスト.md`にも書き足す(YouTubeは単発なので書かない)
 - 要約や解釈は加えず、話している内容・書いてある内容をそのまま残す
 - 保存先は`01_Sources/<媒体>/data/`。ナレッジや分析はここに置かない
-- 終わったら中身をりゅーじ君と確認し、OKならmy-knowledge・post-knowledgeスキルでナレッジにする
+- 終わったら中身をりゅーじ君と確認し、OKならmy-knowledge・knowledgeスキルでナレッジにする
 
 ## 動画の文字起こし(TikTok・YouTube共通)
 

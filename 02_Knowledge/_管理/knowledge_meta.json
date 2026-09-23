@@ -3,7 +3,7 @@
     "type": "conversation",
     "source_group": "1-A(はやとさん)",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/はやと式.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/はやと式.md",
     "sources": ["kw1ew/145.png", "kw1ew/146.jpg", "kw1ew/147.jpg", "kw1ew/148.jpg", "kw1ew/113.jpg", "kw1ew/114.jpg", "kw1ew/157.jpg", "kw1ew/158.jpg", "kw1ew/159.jpg", "kw1ew/111.jpg", "kw1ew/112.jpg", "kw1ew/121.jpg", "kw1ew/122.jpg", "kw1ew/123.jpg", "kw1ew/102.jpg", "kw1ew/160.jpg", "kw1ew/161.jpg"],
     "confidence": "high",
     "status": "verified",
@@ -17,7 +17,7 @@
     "type": "conversation",
     "source_group": "1-A(はやとさん)",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/はやと式.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/はやと式.md",
     "sources": ["kw1ew/165.jpg", "kw1ew/166.jpg", "kw1ew/162.jpg", "kw1ew/163.jpg", "kw1ew/164.jpg", "kw1ew/099.jpg", "kw1ew/100.jpg", "kw1ew/101.jpg", "kw1ew/124.jpg", "kw1ew/125.jpg", "kw1ew/126.jpg", "kw1ew/108.jpg", "kw1ew/109.jpg", "kw1ew/110.jpg"],
     "confidence": "high",
     "status": "verified",
@@ -31,7 +31,7 @@
     "type": "conversation",
     "source_group": "1-A(はやとさん)",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/はやと式.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/はやと式.md",
     "sources": ["kw1ew/102.jpg", "kw1ew/103.jpg", "kw1ew/104.jpg", "kw1ew/105.jpg", "kw1ew/106.jpg", "kw1ew/107.jpg", "kw1ew/108.jpg", "kw1ew/109.jpg", "kw1ew/110.jpg", "kw1ew/153.jpg", "kw1ew/142.jpg", "kw1ew/143.jpg", "kw1ew/144.jpg", "kw1ew/124.jpg", "kw1ew/125.jpg", "kw1ew/126.jpg", "kw1ew/115.jpg", "kw1ew/116.jpg", "kw1ew/117.jpg", "kw1ew/121.jpg", "kw1ew/122.jpg", "kw1ew/123.jpg", "kw1ew/162.jpg", "kw1ew/163.jpg", "kw1ew/164.jpg", "kw1ew/165.jpg", "kw1ew/166.jpg"],
     "confidence": "high",
     "status": "verified",
@@ -45,7 +45,7 @@
     "type": "conversation",
     "source_group": "1-A(はやとさん)",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/はやと式.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/はやと式.md",
     "sources": ["kw1ew/156.jpg", "kw1ew/130.jpg", "kw1ew/131.jpg", "kw1ew/132.jpg", "kw1ew/124.jpg", "kw1ew/125.jpg", "kw1ew/126.jpg"],
     "confidence": "medium",
     "status": "verified",
@@ -1142,7 +1142,7 @@
   "課題の分離": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -1156,7 +1156,7 @@
   "承認欲求を手放して自由に生きる": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -1170,7 +1170,7 @@
   "原因ではなく目的から考える(目的論)": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -1184,7 +1184,7 @@
   "自己受容(60点の自分を受け入れる)": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -1200,7 +1200,7 @@
   "『いま、ここ』に集中し、行為そのものに価値を置く": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/嫌われる勇気"
     ],
@@ -1213,7 +1213,7 @@
   "自動思考に気づき、バランスの良い考え方に変える(7つのコラム法)": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -1229,7 +1229,7 @@
   "下向き矢印法で『本当の思い込み(スキーマ)』を見つける": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -1243,7 +1243,7 @@
   "アサーティブに伝える": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -1256,7 +1256,7 @@
   "問題を具体的にし、一つずつ解決する": {
     "type": "applied_knowledge",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/判断.md",
     "sources": [
       "kindle/こころが晴れるノート"
     ],
@@ -1269,7 +1269,7 @@
   "アタッチメント・タイプを見分ける(黄金のルール)": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1286,7 +1286,7 @@
   "NタイプとVタイプの悪循環(ジェットコースター効果)に気づく": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1300,7 +1300,7 @@
   "離別ストラテジーに気づく": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1314,7 +1314,7 @@
   "Sタイプ的コミュニケーション(気持ちを伝える/けんかを乗り切る)": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/行動.md",
     "sources": [
       "kindle/異性の心を上手に透視する方法"
     ],
@@ -1327,7 +1327,7 @@
   "執着の分散理論": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/行動.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1340,7 +1340,7 @@
   "うわっつらKINDNESS理論": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/行動.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1353,7 +1353,7 @@
   "ファーストラブ理論": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1368,7 +1368,7 @@
   "サプライズ理論": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1381,7 +1381,7 @@
   "エジソン理論": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/LOVE理論"
     ],
@@ -1396,7 +1396,7 @@
   "男性脳・女性脳を見分ける5つの視点": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/男女脳戦略"
     ],
@@ -1410,7 +1410,7 @@
   "脳タイプに合わせて伝え方を変える": {
     "type": "applied_knowledge",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/判断.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/判断.md",
     "sources": [
       "kindle/男女脳戦略"
     ],
@@ -1438,7 +1438,7 @@
   "テレアポで切られてもすぐ電話を切らない": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1451,7 +1451,7 @@
   "時間の許可を求めずドア・イン・ザ・フェイス的に粘る": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1464,7 +1464,7 @@
   "サービス内容ではなくBefore/Afterを話す": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7192189205374668033.md"
     ],
@@ -1477,7 +1477,7 @@
   "切り返しの目的は論破ではなく背中を押すこと": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7443360052288785682.md",
       "transcripts/7671844559889943829.md",
@@ -1498,7 +1498,7 @@
   "マイナスでなくプラスを聞く": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7287539608550706433.md",
       "transcripts/7296410419671928065.md"
@@ -1514,7 +1514,7 @@
   "共感はせよ、ただ納得はするな": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7614283680265112848.md"
     ],
@@ -1529,7 +1529,7 @@
   "感謝の言葉は自信と余裕を示すために使う": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7403343348913753360.md",
       "transcripts/7624672072563739920.md"
@@ -1545,7 +1545,7 @@
   "「〜だと思います」を使わず言い切る": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7503376831861640466.md"
     ],
@@ -1558,7 +1558,7 @@
   "逆接のイエスバットではなく順接のイエスそうを使う": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7503376831861640466.md"
     ],
@@ -1571,7 +1571,7 @@
   "「高いですね」への切り返し(価値の上乗せ)": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7320424722565532929.md",
       "transcripts/7440447459010153746.md",
@@ -1588,7 +1588,7 @@
   "「考えます」は断り文句ではなく欲しい証拠": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7450404499279088903.md",
       "transcripts/7597765148681489680.md"
@@ -1604,7 +1604,7 @@
   "現状維持バイアス(めんどくさい)への対策": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7391758752023710984.md",
       "transcripts/7611872750705184001.md"
@@ -1618,7 +1618,7 @@
   "「相談したい」の見極めと切り返し": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7342705502800956680.md",
       "transcripts/7503377264692759816.md",
@@ -1633,7 +1633,7 @@
   "「今日は決めません」という前置きへの対応": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7314565840412609793.md",
       "transcripts/7396932505451973906.md"
@@ -1647,7 +1647,7 @@
   "既存の他社利用者への切り返し": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7355785000953924872.md",
       "transcripts/7473785932366368007.md",
@@ -1664,7 +1664,7 @@
   "ドア・イン・ザ・フェイス": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7306392855843507458.md",
       "transcripts/7314128361473854721.md",
@@ -1684,7 +1684,7 @@
   "フット・イン・ザ・ドア": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/乾式.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/乾式.md",
     "sources": [
       "transcripts/7499807280263712018.md",
       "transcripts/7686784825864310036.md"
@@ -1703,7 +1703,7 @@
   "二者択一・ダブルバインド": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7499807280263712018.md"
     ],
@@ -1716,7 +1716,7 @@
   "ラベリング効果": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7311122904442244354.md",
       "transcripts/7627056286793747733.md"
@@ -1732,7 +1732,7 @@
   "ウィンザー効果": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7366077645882199314.md",
       "transcripts/7382204994923138312.md",
@@ -1752,7 +1752,7 @@
   "バンドワゴン効果": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7382204994923138312.md",
       "transcripts/7403540893854174480.md"
@@ -1768,7 +1768,7 @@
   "カクテルパーティー効果": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7274800633469848833.md",
       "transcripts/7342704475364134162.md"
@@ -1784,7 +1784,7 @@
   "一貫性の原理の使い方": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7403540893854174480.md",
       "transcripts/7480847865363827984.md",
@@ -1803,7 +1803,7 @@
   "フレーミング効果": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7376083056009940231.md"
     ],
@@ -1818,7 +1818,7 @@
   "メラビアンの法則の正しい理解": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7407695739754761490.md"
     ],
@@ -1833,7 +1833,7 @@
   "ザイアンスの熟知の法則で本音を引き出す": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7544022118493719816.md"
     ],
@@ -1850,7 +1850,7 @@
   "権威の心理学": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7373589118204382482.md",
       "transcripts/7447799940715171090.md"
@@ -1864,7 +1864,7 @@
   "人の本音は3回目に出る(3度押し)": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7287537946817809665.md",
       "transcripts/7347530871357984007.md"
@@ -1878,7 +1878,7 @@
   "突然はごめんね、でも自信あるからの構え": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7311125578931834113.md",
       "transcripts/7408003328199707922.md"
@@ -1892,7 +1892,7 @@
   "特別感・当たり前さ・ハテナで注意を引く": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7285654476390665474.md",
       "transcripts/7320426091385048321.md",
@@ -1908,7 +1908,7 @@
   "テレアポの声のトーンと表情": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7399833547021880577.md"
     ],
@@ -1921,7 +1921,7 @@
   "資料だけ送ってと言われたらヒアリングしてからアポにつなげる": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7399833547021880577.md"
     ],
@@ -1934,7 +1934,7 @@
   "一流のプレゼントークの3段階": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7340093802100591890.md",
       "transcripts/7437779506666032391.md",
@@ -1952,7 +1952,7 @@
   "具体的な一コマを想像させる": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7360884570050333970.md",
       "transcripts/7382202564512697608.md"
@@ -1966,7 +1966,7 @@
   "地獄と天国のギャップ": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7337179624339787009.md",
       "transcripts/7345394911136517394.md",
@@ -1983,7 +1983,7 @@
   "問題提起から解決の順で話す": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7635235460570254613.md"
     ],
@@ -1996,7 +1996,7 @@
   "比較を作る": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7353183652186033415.md",
       "transcripts/7366077645882199314.md",
@@ -2013,7 +2013,7 @@
   "ベネフィット(利点)を語る": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7353183652186033415.md",
       "transcripts/7402128228015492353.md",
@@ -2028,7 +2028,7 @@
   "AREA話法": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7378686187508075794.md",
       "transcripts/7586196467514133781.md"
@@ -2042,7 +2042,7 @@
   "理由は3つまで(ピラミッドストラクチャー)": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7298969655127985410.md",
       "transcripts/7340092594745134344.md",
@@ -2057,7 +2057,7 @@
   "「3連発」で畳みかける": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7635235460570254613.md"
     ],
@@ -2070,7 +2070,7 @@
   "視覚に訴える資料を作る": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7678985639148244244.md",
       "transcripts/7663760567949085973.md"
@@ -2084,7 +2084,7 @@
   "話に集中させ続ける工夫": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7525624372724288786.md",
       "transcripts/7678985639148244244.md"
@@ -2098,7 +2098,7 @@
   "蛇の尻尾のクロージング": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7353185081294441735.md"
     ],
@@ -2111,7 +2111,7 @@
   "どこが良かったか、なぜ良かったかを聞く": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7314151287715532034.md",
       "transcripts/7340092594745134344.md",
@@ -2128,7 +2128,7 @@
   "プラスのシャワー": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7386860307441831175.md",
       "transcripts/7528691559009635592.md",
@@ -2145,7 +2145,7 @@
   "マジックワード": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7403343348913753360.md",
       "transcripts/7433993363277303048.md",
@@ -2160,7 +2160,7 @@
   "沈黙を怖がらない(クロージングシグナル理論)": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7359196357925588232.md",
       "transcripts/7473785424159214856.md"
@@ -2174,7 +2174,7 @@
   "クローザーの心構え": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7535769248124259591.md"
     ],
@@ -2187,7 +2187,7 @@
   "第三者話法+実績+親近性": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7301536334089293057.md",
       "transcripts/7326727017838169345.md",
@@ -2205,7 +2205,7 @@
   "雑談の目的は自慢話をさせること": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7575716254728654101.md",
       "transcripts/7501308844857953543.md"
@@ -2219,7 +2219,7 @@
   "褒め方は内面・センス・過去を褒める": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7661213666796195093.md",
       "transcripts/7285654476390665474.md"
@@ -2233,7 +2233,7 @@
   "嫌われる無自覚な癖に注意する": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7332357064645168386.md",
       "transcripts/7391764950038940936.md",
@@ -2248,7 +2248,7 @@
   "NGワードを避ける": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7378684511816568082.md",
       "transcripts/7503376831861640466.md"
@@ -2262,7 +2262,7 @@
   "信頼を失う3つのNG(顧客目線)": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7427295055414824199.md"
     ],
@@ -2275,7 +2275,7 @@
   "新人は1年目アピールをしない": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7317472029266005249.md",
       "transcripts/7387977886826794247.md",
@@ -2290,7 +2290,7 @@
   "商談で緊張しない方法": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7488981440764431634.md"
     ],
@@ -2303,7 +2303,7 @@
   "主導権の握り方": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7308926762409348353.md",
       "transcripts/7501307917199609106.md"
@@ -2317,7 +2317,7 @@
   "平均の法則(スランプ対策)": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7370885947216514312.md"
     ],
@@ -2330,7 +2330,7 @@
   "感覚に頼らず言語化する": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7461239447636430087.md",
       "transcripts/7658231415087123733.md"
@@ -2344,7 +2344,7 @@
   "売れない言い訳を手放す": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7621747639519841557.md"
     ],
@@ -2357,7 +2357,7 @@
   "アポがない日こそ勝負の日、保留を作らない": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7586201401609538837.md"
     ],
@@ -2370,7 +2370,7 @@
   "健康を最優先にする": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7586201401609538837.md"
     ],
@@ -2383,7 +2383,7 @@
   "ロープレでは羞恥心を捨てる": {
     "type": "action",
     "genre": "03_Sales",
-    "file": "02_Knowledge/03_Sales/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/03_Sales/行動.md",
     "sources": [
       "transcripts/7629652349631335701.md"
     ],
@@ -2437,7 +2437,7 @@
   "褒められた・探りを入れられた時は一度拾ってから返す": {
     "kind": "action",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/行動.md",
     "sources": [
       "Todai_Renai/2100525516054843822",
       "Todai_Renai/2100525514926457328",
@@ -2454,7 +2454,7 @@
   "問題が起きた時の対応で信頼性が判断される": {
     "kind": "action",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/行動.md",
     "sources": ["romantic_thai/2100419489581957436", "romantic_thai/2100419489279983691"],
     "matched_sources": [],
     "confidence": "B",
@@ -2466,7 +2466,7 @@
   "恋愛の話題には他人の恋愛話から段階的に入る": {
     "kind": "action",
     "genre": "02_Romance",
-    "file": "02_Knowledge/02_Romance/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/02_Romance/行動.md",
     "sources": ["romantic_thai/2099974053587292653", "romantic_thai/2099974040962388203"],
     "matched_sources": [],
     "confidence": "C",
@@ -2478,7 +2478,7 @@
   "メンタルを弱くする3つの原因への対処": {
     "kind": "action",
     "genre": "01_Psychology",
-    "file": "02_Knowledge/01_Psychology/行動.md",
+    "file": "03_MyKnowledge/03_使える知識/01_Psychology/行動.md",
     "sources": ["eigyou.inui/7674522454227717396"],
     "matched_sources": [],
     "confidence": "B",

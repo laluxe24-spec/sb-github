@@ -1,39 +1,35 @@
 ---
 name: youtube-transcribe
-description: YouTube動画を文字起こしして02_Sources/04_YouTubeに保存する。「YouTubeの動画を文字起こしして」「このYouTube動画をナレッジに入れたい」「このチャンネルを追加して」のような依頼があった時に必ず使う。個別動画URL・複数URLのまとめ処理いずれにも対応する。しゃべってる内容の文字起こしが目的で、動画の構成・編集分析はこのスキルの対象外。
+description: YouTube動画のしゃべっている内容を文字起こしして`02_Sources/04_YouTube/data/@<チャンネル名>/`に保存する。「このYouTubeを文字起こしして」「このYouTubeをナレッジに入れたい」の時に使う。1本でも、URLをまとめた複数本でもOK。
 ---
 
 # YouTube文字起こし
 
-YouTube動画を`02_Sources/04_YouTube/scripts/transcribe.py`で文字起こしし、`02_Sources/04_YouTube/data/@チャンネル名/`に保存するスキル。新しいチャンネルを追加する時も、既存チャンネルの動画を追加する時も同じ手順を使う。
-
-このスキルがやるのは「何を言っているか」を文字起こしすることまで。実際にKnowledge化する判断(何が使えるノウハウか)は秘書エージェントが別途行う(tiktok-transcribeと違い、YouTubeは無人実行のパイプラインにまだ組み込まれていないので、毎回その場で判断する)。
+動画の音声を文字起こしするところまでがこのスキル。ナレッジにするのはknowledge-buildスキル。要約や解釈は加えず、話している内容をそのまま残す。
 
 ## 手順
 
-1. **URLを確認する**: 個別動画URL(`https://www.youtube.com/watch?v=...` または `https://youtu.be/...`)を受け取る。
-
+1. **URLを受け取る**: `https://www.youtube.com/watch?v=...` または `https://youtu.be/...`
 2. **実行する**:
-   - 1本だけの場合:
-     ```bash
-     cd /Users/ryuji/sb-mac/02_Sources/04_YouTube
-     python3 scripts/transcribe.py "https://youtu.be/xxxxxxxxxxx"
-     ```
-   - 複数本まとめての場合、URLを1行1つのテキストファイルにしてから:
-     ```bash
-     python3 scripts/transcribe.py --file urls.txt
-     ```
+   ```bash
+   cd 02_Sources/04_YouTube
+   python3 scripts/transcribe.py "https://youtu.be/xxxxxxxxxxx"
+   ```
+   まとめて処理する時は、URLを1行1つ書いたテキストファイルを作って:
+   ```bash
+   python3 scripts/transcribe.py --file urls.txt
+   ```
+3. **確認**: 次のファイルができていればOK
+   - `data/@チャンネル名/transcripts/<動画ID>.md`: 文字起こし(url・チャンネル名・タイトル・投稿日つき)
+   - `data/@チャンネル名/manifest.json`: そのチャンネルの動画一覧
+   - 音声ファイルは自動で消える
+   - 処理済みの動画は「スキップ(処理済み)」と出て正常終了する。エラーではない
+4. **中身をりゅーじ君と確認**し、OKならknowledge-buildスキルでナレッジにする。実践者のノウハウ動画(「月50万達成」系)は個人の体験談なので、`はやと式.md`と同じく発信者ごとの専用ファイルに入れる
 
-3. **完了確認**: `data/@チャンネル名/transcripts/<video_id>.md`(文字起こし、フロントマターにurl・チャンネル名・タイトル・投稿日を含む)と`manifest.json`(動画一覧)が生成されたことを確認する。音声ファイルは文字起こし完了後に自動削除されるので気にしなくていい。
-   - **既に処理済みの動画を指定された場合**: `transcribe.py`は動画IDベースで処理済みかどうかを自動判定し、「スキップ(処理済み)」と出力して正常終了する。これはエラーではなく想定通りの動作。
-
-4. **中身の確認**: 文字起こしの中身をりゅーじ君と一緒に確認する。要約や解釈は加えず、話してる内容をそのまま事実として書き下ろす。
-
-5. **Knowledge化**: OKが出たら、`03_Knowledge/<ジャンル別フォルダ>`に知識としてまとめる。**YouTubeの実践者ノウハウ動画(例: 「月50万達成しました」系)は査読の無い個人の体験談**なので、`はやと式.md`・`乾式.md`と同じ「情報源(発信者)ごとの専用ファイル」形式で保存し、裏付けの無い1事例であることが分かるようにする。
+## 使っている道具
+- `yt-dlp`(brew)・`ffmpeg`(brew)・`mlx-whisper`(pip, Apple Silicon専用、モデルは`mlx-community/whisper-large-v3-turbo`)
 
 ## 注意点
-
-- 初回実行時、Whisperモデル(数百MB〜1GB)のダウンロードで少し時間がかかる。
-- YouTubeはTikTokより1本が長い(数分〜1時間超)ので、文字起こしに数分〜数十分かかることがある。
-- 大量処理は自動でメモリ管理される(空きメモリ800MB未満で待機、10本ごとにプロセス再起動)ので、そのまま待てばよい。
-- `02_Sources`配下には知識フォルダを作らない。知識は`03_Knowledge`側にまとめる。
+- YouTubeは1本が長いので、文字起こしに数分〜数十分かかることがある
+- 初回はWhisperモデルのダウンロードで時間がかかる
+- 大量処理はメモリ対策済み(空きメモリ800MB未満で待機、10本ごとに再起動)

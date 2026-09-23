@@ -11,3 +11,4 @@ __pycache__/
 !.claude/agents/
 .claude/skills/*-workspace/
 02_Sources/01_Kindle/scripts/venv/
+.claude/skills/research/scripts/_sample_output.json

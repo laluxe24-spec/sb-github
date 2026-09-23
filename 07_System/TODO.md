@@ -1,5 +1,8 @@
-# TODO(保留中のタスク)
+# TODO
 
-完了したら都度この一覧から消す。
+やることリスト。終わったら消す。新しいものは上に書く。
 
-- 週次クォータが日曜10:59にリセットされた後、`psychology-research-daily`を有効化する(`launchctl load ~/Library/LaunchAgents/com.sbmac.psychology-research-daily.plist`。plistファイル自体は`07_System/launchd/`に用意済み、まだ`~/Library/LaunchAgents/`にはコピーしていない)。2026-09-22時点で週間クォータ48%使用・日曜まで温存したいため、あえて有効化を保留した。
+- X収集にいいね数・表示回数を足す(`02_Sources/02_X/scripts/collect_posts.js`)。今の投稿データには反応の数字が無く、「よく使われている型」までしか分からないため
+- りゅーじ君のXアカウントを収集対象に入れる(実際に投稿した文と反応を、投稿記録.mdに自動で入れるため)
+- `x-daily`(Xの7アカウントの毎朝収集)を登録する。設定ファイルはあるのに登録されていなかった
+- 恋愛X投稿の「結果の測り方」をりゅーじ君と決めて、`05_Projects/content/ルール.md`に書く

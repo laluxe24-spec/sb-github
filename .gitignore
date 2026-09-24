@@ -12,3 +12,7 @@ __pycache__/
 .claude/skills/*-workspace/
 01_Sources/01_Kindle/scripts/venv/
 .claude/skills/research/scripts/_sample_output.json
+
+# テスト・実行ログ(アップしない)
+01_Sources/02_X/scripts/_*
+01_Sources/02_X/scripts/test_fulltext.js

@@ -2,18 +2,27 @@ const { chromium } = require('playwright');
 const fs = require('fs');
 const path = require('path');
 
-// Usage: node collect_posts.js <handle> [monthsBack]
-// Collects an account's own text posts (skips pure reposts) from their X
-// profile's main "posts" tab, scrolling back until either the timeline ends
-// or a post older than `monthsBack` months is reached. Safe to re-run: it
-// merges into the existing data/@<handle>/posts.json by tweet id,
-// so a later run only needs to fetch forward from the newest saved post.
+// Usage: node collect_posts.js <handle> [monthsBack=24] [--full]
+//
+// アカウントの投稿を集めて data/@<handle>/posts.json に保存する。
+// 画面の文字ではなく、Xが裏で受け取っている元データ(GraphQL)から取るので、
+// 「さらに表示」で折りたたまれた長文も全文入る。反応の数字も一緒に保存する。
+//
+// - 残すもの: 本人の投稿と、本人のスレッドの続き(自分への返信)
+// - 外すもの: 他の人への返信、リポスト
+// - すでに保存済みの投稿: 本文がより長く取れたら上書き、数字は毎回最新に更新
+// - monthsBack: 何ヶ月前まで遡るか(新着だけなら 1)
+// - --full: 保存済みの投稿にぶつかっても止まらず、monthsBack まで全部見直す
+//           (本文の取り直し・数字の更新をまとめてやる時に使う)
 
-const HANDLE = process.argv[2];
-const MONTHS_BACK = parseInt(process.argv[3] || '24', 10);
+const args = process.argv.slice(2);
+const FULL = args.includes('--full');
+const pos = args.filter((a) => !a.startsWith('--'));
+const HANDLE = pos[0];
+const MONTHS_BACK = parseInt(pos[1] || '24', 10);
 
 if (!HANDLE) {
-  console.error('USAGE: node collect_posts.js <handle> [monthsBack=24]');
+  console.error('USAGE: node collect_posts.js <handle> [monthsBack=24] [--full]');
   process.exit(1);
 }
 
@@ -21,192 +30,171 @@ const ROOT = __dirname;
 const OUT_DIR = path.join(ROOT, '..', 'data', `@${HANDLE}`);
 const OUT_PATH = path.join(OUT_DIR, 'posts.json');
 
-function loadExisting() {
-  if (fs.existsSync(OUT_PATH)) {
-    return JSON.parse(fs.readFileSync(OUT_PATH, 'utf8'));
+const cutoff = new Date();
+cutoff.setMonth(cutoff.getMonth() - MONTHS_BACK);
+
+const existing = fs.existsSync(OUT_PATH) ? JSON.parse(fs.readFileSync(OUT_PATH, 'utf8')) : [];
+const byId = new Map(existing.map((p) => [p.id, p]));
+const existingIds = new Set(byId.keys());
+
+// 保存済みのデータが cutoff まで届いているなら、新着だけ取る「更新モード」
+const oldest = existing.length ? existing.reduce((m, p) => (p.created_at < m ? p.created_at : m), existing[0].created_at) : null;
+const isUpdateRun = !FULL && oldest !== null && new Date(oldest) <= cutoff;
+
+const stats = { added: 0, textFixed: 0, metricsUpdated: 0, replyToOther: 0, repost: 0 };
+const seenOps = new Set();
+let hitCutoff = false;
+let hitKnown = false;
+let oldHits = 0;   // cutoffより古い投稿に何回当たったか
+let knownHits = 0; // 保存済みの投稿に何回当たったか
+let ownSeen = 0;
+
+function authorOf(t) {
+  const u = t.core && t.core.user_results && t.core.user_results.result;
+  if (!u) return null;
+  return (u.core && u.core.screen_name) || (u.legacy && u.legacy.screen_name) || null;
+}
+
+function handleTweet(obj, pinned) {
+  const t = obj.__typename === 'TweetWithVisibilityResults' ? obj.tweet : obj;
+  if (!t || !t.legacy || !t.rest_id) return;
+  const author = authorOf(t);
+  if (!author || author.toLowerCase() !== HANDLE.toLowerCase()) return;
+  const L = t.legacy;
+  if (L.retweeted_status_result || (L.full_text || '').startsWith('RT @')) { stats.repost++; return; }
+  const replyTo = L.in_reply_to_screen_name;
+  if (replyTo && replyTo.toLowerCase() !== HANDLE.toLowerCase()) { stats.replyToOther++; return; }
+
+  const createdAt = new Date(L.created_at);
+  if (createdAt < cutoff) {
+    // 固定ポストは古くても一番上に出るので、止まる理由にしない。3回当たったら止める
+    if (!pinned && ++oldHits >= 3) hitCutoff = true;
+    return;
   }
-  return [];
+  ownSeen++;
+
+  const note = t.note_tweet && t.note_tweet.note_tweet_results && t.note_tweet.note_tweet_results.result;
+  const text = note && note.text ? note.text : (L.full_text || '');
+  if (!text) return;
+
+  const metrics = {
+    views: t.views && t.views.count ? parseInt(t.views.count, 10) : null,
+    likes: L.favorite_count ?? null,
+    reposts: L.retweet_count ?? null,
+    replies: L.reply_count ?? null,
+    bookmarks: L.bookmark_count ?? null,
+    quotes: L.quote_count ?? null,
+  };
+  const now = new Date().toISOString();
+  const id = t.rest_id;
+
+  if (existingIds.has(id)) {
+    if (isUpdateRun && !pinned && ++knownHits >= 3) hitKnown = true;
+    const p = byId.get(id);
+    if (text.length > (p.text || '').length) { p.text = text; stats.textFixed++; }
+    p.is_long = !!(note && note.text);
+    p.parent_id = replyTo ? L.in_reply_to_status_id_str : null;
+    p.metrics = metrics;
+    p.metrics_at = now;
+    stats.metricsUpdated++;
+    existingIds.delete(id); // 同じ投稿を2回数えない
+    return;
+  }
+  if (byId.has(id)) return;
+
+  byId.set(id, {
+    id,
+    url: `https://x.com/${HANDLE}/status/${id}`,
+    text,
+    created_at: createdAt.toISOString(),
+    is_long: !!(note && note.text),
+    parent_id: replyTo ? L.in_reply_to_status_id_str : null,
+    metrics,
+    metrics_at: now,
+  });
+  stats.added++;
+}
+
+function walk(node, pinned = false) {
+  if (!node || typeof node !== 'object') return;
+  if (Array.isArray(node)) { node.forEach((n) => walk(n, pinned)); return; }
+  const isPin = pinned || node.type === 'TimelinePinEntry';
+  if (node.__typename === 'Tweet' || node.__typename === 'TweetWithVisibilityResults') handleTweet(node, isPin);
+  for (const k of Object.keys(node)) walk(node[k], isPin);
 }
 
 (async () => {
   fs.mkdirSync(OUT_DIR, { recursive: true });
-  const existing = loadExisting();
-  const existingIds = new Set(existing.map((p) => p.id));
+  console.log(isUpdateRun ? 'MODE: update(新着だけ)' : (FULL ? 'MODE: full(全部見直す)' : 'MODE: backfill(古い投稿まで遡る)'));
 
-  const cutoff = new Date();
-  cutoff.setMonth(cutoff.getMonth() - MONTHS_BACK);
-
-  // Two distinct situations look identical at the top of the timeline (we
-  // immediately start seeing already-known ids), but need different
-  // behavior:
-  //  - "update" run: a previous run already backfilled all the way to (at
-  //    least) this cutoff, so once we're back in known territory there is
-  //    nothing older left to gain — safe to stop early.
-  //  - "backfill" run: existing data only covers a recent window (e.g. an
-  //    earlier short test run) that doesn't yet reach the cutoff — known ids
-  //    encountered near the top must be skipped WITHOUT stopping, so the
-  //    scroll can continue past them into genuinely older, uncollected posts.
-  const existingOldestDate = existing.length
-    ? existing.reduce((min, p) => (p.created_at < min ? p.created_at : min), existing[0].created_at)
-    : null;
-  const isUpdateRun = existingOldestDate !== null && new Date(existingOldestDate) <= cutoff;
-  console.log(isUpdateRun ? 'MODE: update (existing coverage already reaches the cutoff)' : 'MODE: backfill (scrolling past known posts to reach older, uncollected ones)');
-
-  const browser = await chromium.launch({
-    headless: false,
-    args: ['--disable-blink-features=AutomationControlled'],
-  });
+  const browser = await chromium.launch({ headless: false, args: ['--disable-blink-features=AutomationControlled'] });
   const context = await browser.newContext({
     viewport: { width: 1280, height: 900 },
     userAgent: 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
     storageState: path.join(ROOT, 'auth.json'),
   });
   const page = await context.newPage();
-  // with_replies is a superset of the plain profile: own top-level posts +
-  // own replies (both self-thread continuations and replies to others). We
-  // filter out replies-to-others below, keeping self-thread continuations.
-  await page.goto(`https://x.com/${HANDLE}/with_replies`, { waitUntil: 'load', timeout: 60000 });
-  await page.waitForTimeout(3000);
 
-  // X occasionally serves a soft-error placeholder ("something went wrong,
-  // please reload") instead of the timeline — usually transient (rate-limit-
-  // ish), and a reload after a short pause reliably clears it.
+  let responses = 0;
+  page.on('response', async (res) => {
+    const u = res.url();
+    if (!u.includes('/graphql/')) return;
+    const op = u.split('?')[0].split('/').pop() || '?';
+    seenOps.add(op);
+    // 名前はXが変えることがあるので、1つに決め打ちしない
+    if (!/^User.*(Tweets|Timeline)$|UserWithReplies/i.test(op)) return;
+    try { walk(await res.json()); responses++; } catch (e) {}
+  });
+
+  // with_replies = 本人の投稿+スレッドの続き+他人への返信。他人への返信は上で外す
+  await page.goto(`https://x.com/${HANDLE}/with_replies`, { waitUntil: 'load', timeout: 60000 });
+  await page.waitForTimeout(4000);
+
+  // Xがたまに出す「問題が発生しました」は、少し待って再読み込みすれば直る
   for (let attempt = 0; attempt < 5; attempt++) {
-    const hasError = await page.evaluate(() =>
-      document.body.innerText.includes('問題が発生しました')
-    );
-    const articleCount = await page.locator('article').count();
-    if (!hasError && articleCount > 0) break;
-    console.log(`RELOAD_ATTEMPT ${attempt + 1} (error page or empty timeline detected)`);
+    const hasError = await page.evaluate(() => document.body.innerText.includes('問題が発生しました'));
+    const articles = await page.locator('article').count();
+    if (!hasError && articles > 0) break;
+    console.log(`RELOAD_ATTEMPT ${attempt + 1}`);
     await page.waitForTimeout(5000 + attempt * 5000);
     await page.reload({ waitUntil: 'load', timeout: 60000 });
     await page.waitForTimeout(3000);
   }
 
-  const collected = new Map(); // id -> {id, url, text, created_at}
-  const anyTweetIdsSeen = new Set();
-  let stagnantRounds = 0;
-  let hitCutoff = false;
-  let hitKnown = false; // reached a tweet id we've already saved (catch-up mode)
-
-  while (stagnantRounds < 40 && !hitCutoff && !hitKnown) {
-    const items = await page.$$eval(`article`, (articles) => {
-      return articles.map((a) => {
-        // Skip pure reposts (no added comment) — social context line says so.
-        const social = a.querySelector('[data-testid="socialContext"]');
-        const isRepost = social && /repost|リポスト/i.test(social.innerText || '');
-
-        const timeEl = a.querySelector('time');
-        const datetime = timeEl ? timeEl.getAttribute('datetime') : null;
-        const linkEl = timeEl ? timeEl.closest('a') : null;
-        const href = linkEl ? linkEl.getAttribute('href') : null;
-
-        // The with_replies timeline shows no "replying to" label in list view;
-        // instead, a reply's parent tweet (from whoever it's addressed to) is
-        // rendered as the immediately preceding <article>. So to tell a
-        // self-thread continuation from a reply-to-someone-else, the caller
-        // compares each article's author handle against the PREVIOUS
-        // article's author handle. Grab the author's own @handle here (first
-        // anchor whose text is "@something").
-        const handleEl = [...a.querySelectorAll('a')].find((el) => /^@\w+/.test((el.innerText || '').trim()));
-        const authorHandle = handleEl ? handleEl.innerText.trim().slice(1) : null;
-
-        const textEl = a.querySelector('[data-testid="tweetText"]');
-        const text = textEl ? textEl.innerText : '';
-
-        return { href, datetime, text, isRepost, authorHandle };
-      });
-    });
-
-    const beforeAny = anyTweetIdsSeen.size;
-    let prevAuthor = null;
-    for (const it of items) {
-      const isOwn = it.authorHandle && it.authorHandle.toLowerCase() === HANDLE.toLowerCase();
-
-      if (!it.href || !it.datetime) {
-        prevAuthor = it.authorHandle;
-        continue;
-      }
-      const m = it.href.match(/status\/(\d+)/);
-      if (!m) {
-        prevAuthor = it.authorHandle;
-        continue;
-      }
-      const id = m[1];
-      anyTweetIdsSeen.add(id);
-
-      if (!isOwn) {
-        // A foreign tweet shown only as reply-context — not to be saved, but
-        // remember its author so the NEXT (own) article can be checked.
-        prevAuthor = it.authorHandle;
-        continue;
-      }
-
-      // This article is the account's own tweet. If the immediately preceding
-      // article was from someone else, this is a reply directed at them —
-      // exclude. If the preceding article was the account's own (or this is
-      // the very first article), it's either a top-level post or a
-      // self-thread continuation — keep.
-      const isReplyToOther = prevAuthor !== null && prevAuthor.toLowerCase() !== HANDLE.toLowerCase();
-      prevAuthor = it.authorHandle;
-
-      if (existingIds.has(id)) {
-        if (isUpdateRun) hitKnown = true;
-        continue;
-      }
-      if (it.isRepost) continue;
-      if (!it.text) continue;
-      if (isReplyToOther) continue;
-
-      const createdAt = new Date(it.datetime);
-      if (createdAt < cutoff) {
-        hitCutoff = true;
-        continue;
-      }
-
-      if (!collected.has(id)) {
-        collected.set(id, {
-          id,
-          url: `https://x.com/${HANDLE}/status/${id}`,
-          text: it.text,
-          created_at: it.datetime,
-        });
-      }
-    }
-
-    if (anyTweetIdsSeen.size === beforeAny) stagnantRounds++;
-    else stagnantRounds = 0;
-
-    // Mid-scroll rate-limit recovery: if the error placeholder shows up,
-    // back off and reload rather than let it masquerade as "end of timeline".
-    if (anyTweetIdsSeen.size === beforeAny) {
-      const hasError = await page.evaluate(() =>
-        document.body.innerText.includes('問題が発生しました')
-      );
+  let stagnant = 0;
+  let lastCount = -1;
+  while (stagnant < 15 && !hitCutoff && !hitKnown) {
+    await page.mouse.wheel(0, 2200);
+    await page.waitForTimeout(1500);
+    if (ownSeen === lastCount) {
+      stagnant++;
+      const hasError = await page.evaluate(() => document.body.innerText.includes('問題が発生しました'));
       if (hasError) {
-        console.log('MID_SCROLL_ERROR: backing off and reloading');
+        console.log('MID_SCROLL_ERROR: 少し待って再読み込み');
         await page.waitForTimeout(8000);
         await page.reload({ waitUntil: 'load', timeout: 60000 });
         await page.waitForTimeout(3000);
-        stagnantRounds = 0;
-        continue;
+        stagnant = 0;
       }
+    } else {
+      stagnant = 0;
     }
-
-    await page.mouse.wheel(0, 2200);
-    await page.waitForTimeout(1200);
+    lastCount = ownSeen;
   }
-
   await browser.close();
 
-  const merged = [...existing, ...collected.values()];
-  merged.sort((a, b) => (a.id < b.id ? 1 : -1)); // newest first
+  const merged = [...byId.values()].sort((a, b) => (a.id < b.id ? 1 : -1));
   fs.writeFileSync(OUT_PATH, JSON.stringify(merged, null, 2));
 
-  console.log(`DONE @${HANDLE}: +${collected.size} new posts (total ${merged.length}) -> ${OUT_PATH}`);
-  if (hitCutoff) console.log(`Stopped: reached posts older than ${MONTHS_BACK} months.`);
-  if (hitKnown) console.log(`Stopped: caught up with previously saved posts (incremental update complete).`);
-  if (!hitCutoff && !hitKnown) console.log(`Stopped: reached end of timeline (scroll stagnant).`);
+  console.log(`DONE @${HANDLE}: 新しく追加 ${stats.added}件 / 全文に直した ${stats.textFixed}件 / 数字を更新 ${stats.metricsUpdated}件 (合計 ${merged.length}件)`);
+  console.log(`除外: 他の人への返信 ${stats.replyToOther}件 / リポスト ${stats.repost}件`);
+  if (hitCutoff) console.log(`止まった理由: ${MONTHS_BACK}ヶ月より前の投稿まで来た`);
+  else if (hitKnown) console.log('止まった理由: 保存済みの投稿に追いついた(新着の取得完了)');
+  else console.log('止まった理由: タイムラインの最後まで来た');
+  if (responses === 0) {
+    console.log('注意: 投稿のデータを1つも受け取れなかった。Xから届いたデータの名前:');
+    [...seenOps].forEach((o) => console.log('  ' + o));
+  }
 })().catch((err) => {
   console.error('FAILED:', err.message);
   process.exit(1);
